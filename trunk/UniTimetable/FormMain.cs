@@ -727,7 +727,7 @@ namespace UniTimetable
 
         private void utmHelpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string address = "http://unitimetable.googlepages.com/help";
+            string address = "http://jack.valmadre.net/timetable/";
             try
             {
                 System.Diagnostics.Process.Start(address);
