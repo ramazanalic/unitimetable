@@ -298,7 +298,10 @@ namespace UniTimetable
             {
                 HourStart_ = Math.Min(maxHourStart, HourStart_);
                 HourEnd_ = Math.Max(minHourEnd, HourEnd_);
-                BoundsClipped(this);
+                if (BoundsClipped != null)
+                {
+                    BoundsClipped(this);
+                }
             }
         }
 
@@ -336,7 +339,10 @@ namespace UniTimetable
                     HourEnd_ = HourStart_ + minHours;
                 }
             }
-            BoundsClipped(this);
+            if (BoundsClipped != null)
+            {
+                BoundsClipped(this);
+            }
         }
 
         #endregion

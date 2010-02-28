@@ -6,6 +6,7 @@ using System.IO;
 using System.Drawing;
 using System.Resources;
 using System.Reflection;
+using System.Text.RegularExpressions;
 
 namespace UniTimetable
 {
@@ -353,9 +354,14 @@ namespace UniTimetable
                     // get stream number from data
                     int number;
                     if (data.Length == 1)
+                    {
                         number = 0;
+                    }
                     else
-                        number = Convert.ToInt32(data.Substring(1));
+                    {
+                        Match match = Regex.Match(data, @"\d+");
+                        number = Convert.ToInt32(match.Value);
+                    }
                     // do sequential search for stream with the right number
                     stream = null;
                     foreach (Stream x in type.Streams)

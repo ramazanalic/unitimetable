@@ -8,13 +8,13 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("University Timetable Manager")]
 [assembly: AssemblyDescription(@"This program allows you to easily identify an optimal selection of classes for uni.
 
-Latest version available from unitimetable.googlepages.com
+Latest version available from http://jack.valmadre.net/timetable/
 
 Funky icons sourced from www.vistaicons.com, www.photoshopguidesign.com, mazenl77.deviantart.com")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jack Valmadre")]
 [assembly: AssemblyProduct("University Timetable Manager")]
-[assembly: AssemblyCopyright("Copyright © 2007-2008")]
+[assembly: AssemblyCopyright("Copyright © 2007-2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -33,5 +33,5 @@ Funky icons sourced from www.vistaicons.com, www.photoshopguidesign.com, mazenl7
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("2.0.0.0")]
-[assembly: AssemblyFileVersion("2.0.0.0")]
+[assembly: AssemblyVersion("2.0.2.0")]
+[assembly: AssemblyFileVersion("2.0.2.0")]
