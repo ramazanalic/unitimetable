@@ -226,10 +226,13 @@ namespace UniTimetable
                     // look for the ';' before the start of the name of the day
                     // from 7 characters before the location of "day"
                     // (WEDNESday = 6 chars max => 7 to include ';')
-                    pos = line.IndexOf(";", line.IndexOf("day") - 7) + 1;
+                    
                     // just get the first 2 characters of the day name
                     len = 2;
-                    data = line.Substring(pos+4, len);
+                    string tmp = line.Replace("=&quot;", "").Replace("&quot;", "");
+
+                    pos = tmp.IndexOf(";", tmp.IndexOf("day") - 7) + 1;
+                    data = tmp.Substring(pos + 4, len);
                     // find the zero-indexed day number
                     switch (data)
                     {
@@ -292,7 +295,7 @@ namespace UniTimetable
                     continue;
 
                 // get rid of the <td> and </td>
-                data = line.Replace("<td>", "").Replace("</td>", "");
+                data = line.Replace("<td>", "").Replace("</td>", "").Replace("=&quot;", "").Replace("&quot;", "");
 
                 // data contains subject name
                 if (rowLine == 1)
