@@ -157,8 +157,8 @@ namespace UniTimetable
         {
             FormatName_ = "University of Queensland SI-net XLS File";
             University_ = "University of Queensland";
-            CreatedBy_ = "Jack Valmadre";
-            LastUpdated_ = "February 2008";
+            CreatedBy_ = "Jack Valmadre (updated by Jeremy Herbert)";
+            LastUpdated_ = "June 2010";
 
             File1Description_ = "SI-net XLS File (*.xls)";
             File1Dialog_.Title = "Import SI-net XLS File";
@@ -203,6 +203,23 @@ namespace UniTimetable
             {
                 string data = null;
 
+                // updated to ignore html added by SINet
+                if (line.StartsWith("<html") || line.StartsWith("<!--") || line.StartsWith("<meta") || line.StartsWith("<td>&nbsp;"))
+                {
+                    // don't care about this because it is useless (thanks SINet crew!)
+                    continue;
+                }
+
+                if ((line == "<td></td>") && (day == -1))
+                {
+                    continue;
+                }
+                else if (line == "<td></td>")
+                {
+                    rowLine++;
+                    continue;
+                }
+
                 // if we've found the start of a day
                 if (line.Contains("day"))
                 {
@@ -212,7 +229,7 @@ namespace UniTimetable
                     pos = line.IndexOf(";", line.IndexOf("day") - 7) + 1;
                     // just get the first 2 characters of the day name
                     len = 2;
-                    data = line.Substring(pos, len);
+                    data = line.Substring(pos+4, len);
                     // find the zero-indexed day number
                     switch (data)
                     {
@@ -274,6 +291,40 @@ namespace UniTimetable
                 if (!(rowLine == 1 || (rowLine >= 3 && rowLine <= 6) || rowLine == 9 || rowLine == 10))
                     continue;
 
+                // get rid of the <td> and </td>
+                data = line.Replace("<td>", "").Replace("</td>", "");
+
+                // data contains subject name
+                if (rowLine == 1)
+                {
+                    // add new class
+                    session = new Session();
+                    session.Day = day;
+
+                    if (line != "</td>") // hack, thanks again UQ team
+                    {
+                        timetable.ClassList.Add(session);
+                    }
+
+                    // add subject data to class
+                    subject = null;
+                    // sequential search for subject by name
+                    for (int i = 0; i < timetable.SubjectList.Count; i++)
+                    {
+                        if (timetable.SubjectList[i].Name == data)
+                        {
+                            subject = timetable.SubjectList[i];
+                            break;
+                        }
+                    }
+                    // couldn't find subject - create a new one with the name and add to list
+                    if ((subject == null) && (line != "</td>")) // more edge cases, damn you UQ
+                    {
+                        subject = new Subject(data);
+                        timetable.SubjectList.Add(subject);
+                    }
+                }
+
                 // line contains a value
                 if (line.Contains("=&quot;"))
                 {
@@ -290,41 +341,9 @@ namespace UniTimetable
                     len = line.IndexOf('<', pos) - pos;
                     data = line.Substring(pos, len);
                 }
-                else
-                {
-                    // not a line we're interested in
-                    continue;
-                }
-
-
-                // data contains subject name
-                if (rowLine == 1)
-                {
-                    // add new class
-                    session = new Session();
-                    session.Day = day;
-                    timetable.ClassList.Add(session);
-
-                    // add subject data to class
-                    subject = null;
-                    // sequential search for subject by name
-                    for (int i = 0; i < timetable.SubjectList.Count; i++)
-                    {
-                        if (timetable.SubjectList[i].Name == data)
-                        {
-                            subject = timetable.SubjectList[i];
-                            break;
-                        }
-                    }
-                    // couldn't find subject - create a new one with the name and add to list
-                    if (subject == null)
-                    {
-                        subject = new Subject(data);
-                        timetable.SubjectList.Add(subject);
-                    }
-                }
+                
                 // data contains type name
-                else if (rowLine == 3)
+                if (rowLine == 3)
                 {
                     typeName = data;
                 }
