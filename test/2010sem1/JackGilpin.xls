@@ -1,0 +1,3497 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000-2005 PeopleSoft, Inc.  All Rights Reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Course</th><th>Course Title</th><th>Class Type</th><th>Class</th><th>Start</th><th>End</th><th>Clash</th><th>Building Name</th><th>Building Number</th><th>Room</th><th>Start/End Date (DD/MM/YYYY)</th><th>Not taught on these dates (DD/MM/YYYY)</th><th>Signon Avail</th><th>Student Signon</th><th>Group Name</th></tr>
+<tr>
+<td>=&quot;Monday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Physiology Lecture Theatres&quot;</td>
+<td>=&quot;63&quot;</td>
+<td>=&quot;360&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T1&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P1&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;255&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T1&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Abel Smith Lecture Theatre&quot;</td>
+<td>=&quot;23&quot;</td>
+<td>=&quot;1&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/04/2010; 26/04/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T1&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 05/04/2010; 26/04/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T2&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 05/04/2010; 26/04/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T2&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;UQ Centre&quot;</td>
+<td>=&quot;27A&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T2&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P1&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 08/03/2010; 22/03/2010; 12/04/2010; 26/04/2010; 10/05/2010; 24/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P2&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 15/03/2010; 29/03/2010; 19/04/2010; 17/05/2010; 31/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T3&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 05/04/2010; 26/04/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T4&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T3&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T3&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T27&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;321&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L3&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Schonell Theatre&quot;</td>
+<td>=&quot;22&quot;</td>
+<td>=&quot;201&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/04/2010; 26/04/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T5&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 05/04/2010; 26/04/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T6&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 05/04/2010; 26/04/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Schonell Theatre&quot;</td>
+<td>=&quot;22&quot;</td>
+<td>=&quot;201&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T4&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T4&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T7&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 05/04/2010; 26/04/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T8&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 05/04/2010; 26/04/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T5&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P2&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;255&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T5&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T9&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 05/04/2010; 26/04/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T10&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 05/04/2010; 26/04/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Forgan Smith Building&quot;</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E109&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P1&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;04:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;217&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 19/04/2010; 17/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P3&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;04:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 15/03/2010; 29/03/2010; 19/04/2010; 17/05/2010; 31/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T2&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;02:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;442&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T15&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;02:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;MacGregor Building&quot;</td>
+<td>=&quot;64&quot;</td>
+<td>=&quot;120D&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T2&quot;</td>
+<td>=&quot;03:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T3&quot;</td>
+<td>=&quot;03:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;442&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T15&quot;</td>
+<td>=&quot;03:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;542&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T3&quot;</td>
+<td>=&quot;04:00 PM&quot;</td>
+<td>=&quot;04:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P12&quot;</td>
+<td>=&quot;05:00 PM&quot;</td>
+<td>=&quot;07:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;255&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010; 08/03/2010; 03/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;Tuesday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T4&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;08:50 AM&quot;</td>
+<td></td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;442&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P3&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;255&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T6&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T39&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;321&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T11&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 06/04/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T12&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 06/04/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T4&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T5&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;442&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P2&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;217&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 20/04/2010; 27/04/2010; 18/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T7&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T7&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P4&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 09/03/2010; 23/03/2010; 13/04/2010; 27/04/2010; 11/05/2010; 25/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P5&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 16/03/2010; 30/03/2010; 20/04/2010; 27/04/2010; 04/05/2010; 18/05/2010; 01/06/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T13&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 06/04/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T14&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 06/04/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T5&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T8&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L3&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Physiology Lecture Theatres&quot;</td>
+<td>=&quot;63&quot;</td>
+<td>=&quot;360&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T8&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T15&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 06/04/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T16&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 06/04/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T13&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;442&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T9&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;UQ Centre&quot;</td>
+<td>=&quot;27A&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T9&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T17&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 06/04/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T18&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 06/04/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T13&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T14&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;442&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T10&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P4&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;255&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T10&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T19&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 06/04/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T20&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 06/04/2010; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Abel Smith Lecture Theatre&quot;</td>
+<td>=&quot;23&quot;</td>
+<td>=&quot;1&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T14&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T16&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;641&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P3&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;04:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;217&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 09/03/2010; 20/04/2010; 27/04/2010; 18/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P6&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;04:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 09/03/2010; 23/03/2010; 13/04/2010; 27/04/2010; 11/05/2010; 25/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P7&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;04:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 16/03/2010; 30/03/2010; 20/04/2010; 27/04/2010; 04/05/2010; 18/05/2010; 01/06/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T6&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;02:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;442&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T16&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;02:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T6&quot;</td>
+<td>=&quot;03:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T7&quot;</td>
+<td>=&quot;03:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;MacGregor Building&quot;</td>
+<td>=&quot;64&quot;</td>
+<td>=&quot;120D&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T7&quot;</td>
+<td>=&quot;04:00 PM&quot;</td>
+<td>=&quot;04:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;Wednesday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;08:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Abel Smith Lecture Theatre&quot;</td>
+<td>=&quot;23&quot;</td>
+<td>=&quot;1&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T19&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;08:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;MacGregor Building&quot;</td>
+<td>=&quot;64&quot;</td>
+<td>=&quot;120D&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T11&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P5&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;255&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T11&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T35&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;MacGregor Building&quot;</td>
+<td>=&quot;64&quot;</td>
+<td>=&quot;120D&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Hawken Engineering Building&quot;</td>
+<td>=&quot;50&quot;</td>
+<td>=&quot;T203&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 07/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T21&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010; 07/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T22&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010; 07/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Forgan Smith Building&quot;</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E109&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T8&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;442&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T19&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Building 69&quot;</td>
+<td>=&quot;69&quot;</td>
+<td>=&quot;315&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T12&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T12&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;UQ Centre&quot;</td>
+<td>=&quot;27A&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 07/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T23&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010; 07/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T24&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010; 07/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T8&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T13&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T13&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T25&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010; 07/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T26&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010; 07/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Hawken Engineering Building&quot;</td>
+<td>=&quot;50&quot;</td>
+<td>=&quot;T203&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T14&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T27&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T28&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010; 07/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T9&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;442&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T15&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P6&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;255&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T15&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T36&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;321&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L3&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;UQ Centre&quot;</td>
+<td>=&quot;27A&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 07/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T29&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010; 07/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T30&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010; 07/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Hawken Engineering Building&quot;</td>
+<td>=&quot;50&quot;</td>
+<td>=&quot;T203&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T9&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P4&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;04:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;217&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010; 21/04/2010; 19/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P9&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;04:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 10/03/2010; 24/03/2010; 14/04/2010; 28/04/2010; 12/05/2010; 26/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T10&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;02:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;442&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T10&quot;</td>
+<td>=&quot;03:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P7&quot;</td>
+<td>=&quot;05:00 PM&quot;</td>
+<td>=&quot;07:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;255&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 03/03/2010; 10/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;Thursday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L3&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;08:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;139&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T11&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;08:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;442&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T18&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;08:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;MacGregor Building&quot;</td>
+<td>=&quot;64&quot;</td>
+<td>=&quot;120D&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T16&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;UQ Centre&quot;</td>
+<td>=&quot;27A&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P8&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;255&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T16&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T31&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010; 08/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T32&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010; 08/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T11&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T12&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;442&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T18&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Building 69&quot;</td>
+<td>=&quot;69&quot;</td>
+<td>=&quot;206&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P5&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;217&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010; 22/04/2010; 20/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T17&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T17&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T30&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;321&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;UQ Centre&quot;</td>
+<td>=&quot;27A&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 08/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P8&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 18/03/2010; 01/04/2010; 22/04/2010; 06/05/2010; 20/05/2010; 03/06/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T33&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010; 08/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T34&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010; 08/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T12&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;443&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T18&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T18&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T31&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;321&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T35&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010; 08/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T36&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010; 08/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Physiology Lecture Theatres&quot;</td>
+<td>=&quot;63&quot;</td>
+<td>=&quot;348&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T19&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Abel Smith Lecture Theatre&quot;</td>
+<td>=&quot;23&quot;</td>
+<td>=&quot;1&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 08/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T37&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010; 08/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T38&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010; 08/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T20&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P9&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;255&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T20&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T39&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010; 08/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T40&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010; 08/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Physiology Lecture Theatres&quot;</td>
+<td>=&quot;63&quot;</td>
+<td>=&quot;348&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P6&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;04:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;217&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010; 22/04/2010; 20/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P14&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;04:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 18/03/2010; 01/04/2010; 22/04/2010; 06/05/2010; 20/05/2010; 03/06/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P10&quot;</td>
+<td>=&quot;05:00 PM&quot;</td>
+<td>=&quot;07:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;255&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010; 11/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;Friday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;08:50 AM&quot;</td>
+<td></td>
+<td>=&quot;Schonell Theatre&quot;</td>
+<td>=&quot;22&quot;</td>
+<td>=&quot;201&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T21&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T21&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Hawken Engineering Building&quot;</td>
+<td>=&quot;50&quot;</td>
+<td>=&quot;T203&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/04/2010; 09/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T41&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010; 02/04/2010; 09/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T42&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010; 02/04/2010; 09/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T22&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;UQ Centre&quot;</td>
+<td>=&quot;27A&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T22&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P10&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 12/03/2010; 26/03/2010; 16/04/2010; 30/04/2010; 14/05/2010; 28/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P11&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 19/03/2010; 23/04/2010; 07/05/2010; 21/05/2010; 04/06/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T43&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010; 02/04/2010; 09/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T44&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010; 02/04/2010; 09/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T23&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L3&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Forgan Smith Building&quot;</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E109&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T23&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T33&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;321&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T45&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010; 02/04/2010; 09/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T46&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010; 02/04/2010; 09/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T24&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Hawken Engineering Building&quot;</td>
+<td>=&quot;50&quot;</td>
+<td>=&quot;T203&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T24&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L3&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Schonell Theatre&quot;</td>
+<td>=&quot;22&quot;</td>
+<td>=&quot;201&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/04/2010; 09/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T47&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010; 02/04/2010; 09/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T48&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010; 02/04/2010; 09/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Physiology Lecture Theatres&quot;</td>
+<td>=&quot;63&quot;</td>
+<td>=&quot;360&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;BIOL1030&quot;</td>
+<td>=&quot;Biodiversity &amp; Our Environment&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T25&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;105&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P11&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Goddard Building&quot;</td>
+<td>=&quot;08&quot;</td>
+<td>=&quot;255&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;BIOL1020&quot;</td>
+<td>=&quot;Genes, Cells &amp; Evolution&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T25&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T49&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;351&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010; 02/04/2010; 09/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<td>=&quot;T50&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Sir James Foots Building&quot;</td>
+<td>=&quot;47A&quot;</td>
+<td>=&quot;249&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 05/03/2010; 12/03/2010; 02/04/2010; 09/04/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Tutorial
+PASS&quot;</td>
+<tr>
+<td>=&quot;SCIE1000&quot;</td>
+<td>=&quot;Theory &amp; Practice in Science&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Forgan Smith Building&quot;</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E109&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P12&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;04:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 12/03/2010; 26/03/2010; 16/04/2010; 30/04/2010; 14/05/2010; 28/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CHEM1030&quot;</td>
+<td>=&quot;Chem - Structure &amp; Reactions&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P13&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;04:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chemistry Building&quot;</td>
+<td>=&quot;68&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 12/03/2010; 26/03/2010; 16/04/2010; 30/04/2010; 14/05/2010; 28/05/2010&quot;</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>=&quot;Practical&quot;</td>
+</table></body></html>

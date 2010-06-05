@@ -1,0 +1,1213 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000-2005 PeopleSoft, Inc.  All Rights Reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Course</th><th>Course Title</th><th>Class Type</th><th>Class</th><th>Start</th><th>End</th><th>Clash</th><th>Building Name</th><th>Building Number</th><th>Room</th><th>Start/End Date (DD/MM/YYYY)</th><th>Not taught on these dates (DD/MM/YYYY)</th><th>Signon Avail</th><th>Student Signon</th><th>UQ Group Name</th></tr>
+<tr>
+<td>=&quot;Monday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td></td>
+<td>=&quot;Steele Building&quot;</td>
+<td>=&quot;03&quot;</td>
+<td>=&quot;206&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CSSE2000&quot;</td>
+<td>=&quot;Intro to Digital Systems&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P1&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td></td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;401&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 25/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Hawken Engineering Building&quot;</td>
+<td>=&quot;50&quot;</td>
+<td>=&quot;T203&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CSSE2000&quot;</td>
+<td>=&quot;Intro to Digital Systems&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;102&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T1&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Colin Clark Building&quot;</td>
+<td>=&quot;39&quot;</td>
+<td>=&quot;124&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 25/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T2&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;342&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 25/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T3&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;2:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;343&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 25/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P1&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;4:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Annexe&quot;</td>
+<td>=&quot;44&quot;</td>
+<td>=&quot;162&quot;</td>
+<td>=&quot;10/03/2008 - 14/04/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T4&quot;</td>
+<td>=&quot;3:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Forgan Smith Building&quot;</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E107&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 25/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T5&quot;</td>
+<td>=&quot;4:00 PM&quot;</td>
+<td>=&quot;4:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;341&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 25/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;CSSE2000&quot;</td>
+<td>=&quot;Intro to Digital Systems&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P2&quot;</td>
+<td>=&quot;4:00 PM&quot;</td>
+<td>=&quot;5:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;401&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 25/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;Tuesday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td></td>
+<td>=&quot;Schonell Theatre&quot;</td>
+<td>=&quot;22&quot;</td>
+<td>=&quot;201&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;UQ Centre&quot;</td>
+<td>=&quot;27A&quot;</td>
+<td>=&quot;220&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CSSE2000&quot;</td>
+<td>=&quot;Intro to Digital Systems&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P6&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;401&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 26/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T1&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Michie Building&quot;</td>
+<td>=&quot;09&quot;</td>
+<td>=&quot;816&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T2&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;218&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T3&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Hartley Teakle Building&quot;</td>
+<td>=&quot;83&quot;</td>
+<td>=&quot;C415&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T4&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Hartley Teakle Building&quot;</td>
+<td>=&quot;83&quot;</td>
+<td>=&quot;C416&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T5&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Hartley Teakle Building&quot;</td>
+<td>=&quot;83&quot;</td>
+<td>=&quot;S301&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T6&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Forgan Smith Building&quot;</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E219&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T7&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Forgan Smith Building&quot;</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E356&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T8&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;General Purpose South&quot;</td>
+<td>=&quot;78&quot;</td>
+<td>=&quot;344&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Hawken Engineering Building&quot;</td>
+<td>=&quot;50&quot;</td>
+<td>=&quot;T203&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T6&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Forgan Smith Building&quot;</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E232&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 26/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T23&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;342&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 26/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;METR2800&quot;</td>
+<td>=&quot;Mechatronic System Design I&quot;</td>
+<td>=&quot;IT&quot;</td>
+<td>=&quot;I&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>=&quot;04/03/2008 - 01/04/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;IT&quot;</td>
+<tr>
+<td>=&quot;METR2800&quot;</td>
+<td>=&quot;Mechatronic System Design I&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Hawken Engineering Building&quot;</td>
+<td>=&quot;50&quot;</td>
+<td>=&quot;C404&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 26/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T7&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;2:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;342&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 26/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P2&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;4:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Annexe&quot;</td>
+<td>=&quot;44&quot;</td>
+<td>=&quot;162&quot;</td>
+<td>=&quot;11/03/2008 - 15/04/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CSSE2000&quot;</td>
+<td>=&quot;Intro to Digital Systems&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P3&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;401&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 26/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T8&quot;</td>
+<td>=&quot;3:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;104&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 26/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T9&quot;</td>
+<td>=&quot;4:00 PM&quot;</td>
+<td>=&quot;4:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;341&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 26/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Seminar&quot;</td>
+<td>=&quot;S&quot;</td>
+<td>=&quot;5:00 PM&quot;</td>
+<td>=&quot;5:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Hawken Engineering Building&quot;</td>
+<td>=&quot;50&quot;</td>
+<td>=&quot;T203&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Seminar&quot;</td>
+<tr>
+<td>=&quot;Wednesday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T10&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td></td>
+<td>=&quot;Michie Building&quot;</td>
+<td>=&quot;09&quot;</td>
+<td>=&quot;722&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 27/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;CSSE2000&quot;</td>
+<td>=&quot;Intro to Digital Systems&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P4&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;401&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 27/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T11&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T12&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Connell Building&quot;</td>
+<td>=&quot;26&quot;</td>
+<td>=&quot;232&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 27/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;METR2800&quot;</td>
+<td>=&quot;Mechatronic System Design I&quot;</td>
+<td>=&quot;Contact&quot;</td>
+<td>=&quot;C1&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;404&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 27/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Contact&quot;</td>
+<tr>
+<td>=&quot;METR2800&quot;</td>
+<td>=&quot;Mechatronic System Design I&quot;</td>
+<td>=&quot;Contact&quot;</td>
+<td>=&quot;C2&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;504&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 27/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Contact&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T13&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Steele Building&quot;</td>
+<td>=&quot;03&quot;</td>
+<td>=&quot;329&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 27/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;METR2800&quot;</td>
+<td>=&quot;Mechatronic System Design I&quot;</td>
+<td>=&quot;Contact&quot;</td>
+<td>=&quot;C3&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;404&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 27/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Contact&quot;</td>
+<tr>
+<td>=&quot;METR2800&quot;</td>
+<td>=&quot;Mechatronic System Design I&quot;</td>
+<td>=&quot;Contact&quot;</td>
+<td>=&quot;C4&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;504&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 27/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Contact&quot;</td>
+<tr>
+<td>=&quot;METR2800&quot;</td>
+<td>=&quot;Mechatronic System Design I&quot;</td>
+<td>=&quot;Contact&quot;</td>
+<td>=&quot;C5&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;2:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;404&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 27/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Contact&quot;</td>
+<tr>
+<td>=&quot;METR2800&quot;</td>
+<td>=&quot;Mechatronic System Design I&quot;</td>
+<td>=&quot;Contact&quot;</td>
+<td>=&quot;C6&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;2:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;504&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 27/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Contact&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P3&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;4:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Annexe&quot;</td>
+<td>=&quot;44&quot;</td>
+<td>=&quot;162&quot;</td>
+<td>=&quot;12/03/2008 - 16/04/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CSSE2000&quot;</td>
+<td>=&quot;Intro to Digital Systems&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P5&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;401&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 27/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;Thursday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;CSSE2000&quot;</td>
+<td>=&quot;Intro to Digital Systems&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T6&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;401&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 28/02/2008; 24/04/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Schonell Theatre&quot;</td>
+<td>=&quot;22&quot;</td>
+<td>=&quot;201&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 24/04/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T14&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Colin Clark Building&quot;</td>
+<td>=&quot;39&quot;</td>
+<td>=&quot;124&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 28/02/2008; 24/04/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T15&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;341&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 28/02/2008; 24/04/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T16&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Connell Building&quot;</td>
+<td>=&quot;26&quot;</td>
+<td>=&quot;232&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 28/02/2008; 24/04/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T17&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Hartley Teakle Building&quot;</td>
+<td>=&quot;83&quot;</td>
+<td>=&quot;C416&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 28/02/2008; 24/04/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;CSSE2000&quot;</td>
+<td>=&quot;Intro to Digital Systems&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T2&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;401&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 28/02/2008; 24/04/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T18&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Michie Building&quot;</td>
+<td>=&quot;09&quot;</td>
+<td>=&quot;816&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 28/02/2008; 24/04/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T19&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Colin Clark Building&quot;</td>
+<td>=&quot;39&quot;</td>
+<td>=&quot;124&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 28/02/2008; 24/04/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T20&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Colin Clark Building&quot;</td>
+<td>=&quot;39&quot;</td>
+<td>=&quot;124&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 28/02/2008; 24/04/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P4&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;4:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Annexe&quot;</td>
+<td>=&quot;44&quot;</td>
+<td>=&quot;162&quot;</td>
+<td>=&quot;13/03/2008 - 17/04/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CSSE2000&quot;</td>
+<td>=&quot;Intro to Digital Systems&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T3&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;401&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 28/02/2008; 24/04/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;Friday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;08:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Hawken Engineering Building&quot;</td>
+<td>=&quot;50&quot;</td>
+<td>=&quot;T203&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CSSE2000&quot;</td>
+<td>=&quot;Intro to Digital Systems&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T1&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;401&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 29/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;METR2800&quot;</td>
+<td>=&quot;Mechatronic System Design I&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;141&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;CSSE2000&quot;</td>
+<td>=&quot;Intro to Digital Systems&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T4&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;401&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 29/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T21&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Colin Clark Building&quot;</td>
+<td>=&quot;39&quot;</td>
+<td>=&quot;124A&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 29/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Steele Building&quot;</td>
+<td>=&quot;03&quot;</td>
+<td>=&quot;206&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T22&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;342&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 29/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T24&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Priestley Building&quot;</td>
+<td>=&quot;67&quot;</td>
+<td>=&quot;342&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 29/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Contact&quot;</td>
+<td>=&quot;C&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Prentice Building&quot;</td>
+<td>=&quot;42&quot;</td>
+<td>=&quot;115&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Contact&quot;</td>
+<tr>
+<td>=&quot;MATH2000&quot;</td>
+<td>=&quot;Calculus &amp; Linear Algebra II&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T25&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;2:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Michie Building&quot;</td>
+<td>=&quot;09&quot;</td>
+<td>=&quot;722&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 29/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH2300&quot;</td>
+<td>=&quot;Structures &amp; Materials&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P5&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;4:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Frank White Annexe&quot;</td>
+<td>=&quot;44&quot;</td>
+<td>=&quot;162&quot;</td>
+<td>=&quot;14/03/2008 - 18/04/2008&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;CSSE2000&quot;</td>
+<td>=&quot;Intro to Digital Systems&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T5&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Axon Building&quot;</td>
+<td>=&quot;47&quot;</td>
+<td>=&quot;401&quot;</td>
+<td>=&quot;25/02/2008 - 31/05/2008&quot;</td>
+<td>=&quot; 29/02/2008&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+</table></body></html>
