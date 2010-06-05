@@ -173,202 +173,184 @@ namespace UniTimetable
         {
             Timetable timetable = new Timetable();
 
-            // get file name
+            // Get file name.
             string fileName = File1Dialog_.FileName;
-            // if it doesn't end with .xls
-            if (!(fileName.ToLower().EndsWith(".xls")))
+            if (!fileName.ToLower().EndsWith(".xls"))
             {
-                // pop up an error
-                MessageBox.Show("Please select a file with extension .xls.", "File Type", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                // and return null - failed
+                // File doesn't end with .xls!
+                MessageBox.Show("Please select a file with extension .xls.",
+                                "File Type",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Exclamation);
                 return null;
             }
-
-            // create an object to read the input file
+            // Dump the input file into a string.
             StreamReader streamReader = new StreamReader(fileName);
-            
-            int stream_number = 0;
-            Subject subject = null;
-            Type type = null;
-            Stream stream = null;
-            Session session = null;
-
-            // first of all, let's dump the whole file into a string
-            string timetable_html = streamReader.ReadToEnd(); 
+            string timetable_html = streamReader.ReadToEnd();
             streamReader.Close();
 
-            /****** Remove useless information ******/
-
-            // anything in the following list of regexes will be removed from the string
+            // Remove useless information.
+            // Anything in the following list of regexes will be removed.
             string[] replacements = {
-                                        @"\n",                      // we get rid of newlines so we don't have to bother with multiline regex
-                                        @"<html.*?>",               // opening html
-                                        @"<!--.*?-->",              // html comments
-                                        @"=&quot;", @"&quot;",      // html-escaped quotes
-                                        @"&nbsp;",                  // html-escaped spaces (these are useless anyway as the file contains normal spaces where needed)
-                                        @"<meta.*?>",               // meta tags
-                                        @"<tr><th>.*?</th></tr>",   // table headers
-                                        @"</tr>",                   // remove close row tags (this will make sense for the cleanups)
-                                        @"<table.*?>",              // table opening tag
-                                        @"<body.*?>",               // body open tag
-                                        @"</body></html>"           // end page tags
-                                    };
-            // run the replacements
+                @"\n",                      // we get rid of newlines so we don't have to bother with multiline regex
+                @"<html.*?>",               // opening html
+                @"<!--.*?-->",              // html comments
+                @"=&quot;", @"&quot;",      // html-escaped quotes
+                @"&nbsp;",                  // html-escaped spaces (these are useless anyway as the file contains normal spaces where needed)
+                @"<meta.*?>",               // meta tags
+                @"<tr><th>.*?</th></tr>",   // table headers
+                @"</tr>",                   // remove close row tags (this will make sense for the cleanups)
+                @"<table.*?>",              // table opening tag
+                @"<body.*?>",               // body open tag
+                @"</body></html>"           // end page tags
+            };
+            // Run the replacements.
             foreach (string replace_regex in replacements) 
             {
                 timetable_html = Regex.Replace(timetable_html, replace_regex, "");
             }
 
-            /****** Clean up the syntax of the file ******/
-
-            // now build a dictionary of regex cleanups to make the file nice and parseable
-            Dictionary<string, string> cleanups = new Dictionary<string,string>(); // probably should use a pair, but this requires less code and is probably more efficient
-            
-            // put the ampersands back in
-            cleanups.Add(@"&amp;", "&"); 
-
-            // we can assume that each <tr> actually means </tr><tr> in valid html, so we will insert the correct ones
-            cleanups.Add(@"<tr>", "</tr><tr>"); // unfortunately as a result of this cleanup, there will be a </tr> at the start of the file
-
-            // we can also assume that the </table> tag actually represents a </tr>, so replace accordingly
+            // Build a dictionary of regex cleanups.
+            // Probably should use a pair, but this requires less code and is probably more efficient
+            Dictionary<string, string> cleanups = new Dictionary<string,string>();
+            // Put the ampersands back in.
+            cleanups.Add(@"&amp;", "&");
+            // Assume that each <tr> actually means </tr><tr> in valid html.
+            // Unfortunately this results in a </tr> at the start of the file.
+            cleanups.Add(@"<tr>", "</tr><tr>");
+            // Assume that the </table> tag actually represents a </tr>.
             cleanups.Add(@"</table>", "</tr>");
-
-            // run the cleanups
+            // Run the cleanups
             foreach (string cleanup_regex in cleanups.Keys) 
             {
-                timetable_html = Regex.Replace(timetable_html, cleanup_regex, cleanups[cleanup_regex]);
+                timetable_html = Regex.Replace(timetable_html,
+                                               cleanup_regex,
+                                               cleanups[cleanup_regex]);
             }
+            // Get rid of the extra </tr> at the start of the file.
+            Regex pattern = new Regex(@"</tr>");
+            timetable_html = pattern.Replace(timetable_html, "", 1);
 
-            // get rid of the extra </tr> generated at the start of the file a result of the 2nd cleanup
-            // we need to build a regex object to use the replace-n feature of Regex
-            //      see http://msdn.microsoft.com/en-us/library/haekbhys.aspx
-            Regex replace_ = new Regex(@"</tr>");
-            timetable_html = replace_.Replace(timetable_html, "", 1);
+            // Build the regex to parse the file.
+            Regex timetable_parser = new Regex(
+                @"<tr>" +                                   // start row
+                @"<td>(?<subject_code>.*?)</td>" +          // subject code (eg "BIOM2012")
+                @"<td>(?<subject_desc>.*?)</td>" +          // subject description (eg "Machine Learning")
+                @"<td>(?<session_type_name>.*?)</td>" +     // session time in long form (eg "Tutorial", "Lecture")
+                @"<td>(?<stream_code>.*?)</td>" +           // stream (eg "T7", "L2", "P")
+                @"<td>(?<start_time>.*?)</td>" +            // session start time (eg "11:00 AM")
+                @"<td>(?<stop_time>.*?)</td>" +             // session stop time (eg "11:50 AM")
+                @"<td>(?<clash>.*?)</td>" +                 // has a clash occured (pretty useless for our purposes)
+                @"<td>(?<building_name>.*?)</td>" +         // full building name (eg "Forgan Smith Building")
+                @"<td>(?<building_number>.*?)</td>" +       // building number (eg "01")
+                @"<td>(?<room>.*?)</td>" +                  // room code (eg "205", "E105"
+                @"<td>(?<running_dates>.*?)</td>" +         // time period over which the stream runs
+                @"<td>(?<not_taught_on>.*?)</td>" +         // date the stream is not taught on
+                @"<td>.*?</td>" +                           // unknown
+                @"<td>.*?</td>" +                           // unknown
+                @"<td>(?<session_type_name2>.*?)</td>" +    // not sure why this is here ?
+                @"</tr>"                                    // close row
+            );
 
-            // let's build the regex we need to parse the file
-            Regex timetable_parser = new Regex( @"<tr>" +                                           // start row
-                                                @"<td>(?<subject_code>.*?)</td>" +                  // subject code (eg "BIOM2012")
-                                                @"<td>(?<subject_desc>.*?)</td>" +                  // subject description (eg "Machine Learning")
-                                                @"<td>(?<session_type_long>.*?)</td>" +             // session time in long form (eg "Tutorial", "Lecture")
-                                                @"<td>(?<stream_code>.*?)</td>" +                   // stream (eg "T7", "L2", "P")
-                                                @"<td>(?<start_time>.*?)</td>" +                    // session start time (eg "11:00 AM")
-                                                @"<td>(?<stop_time>.*?)</td>" +                     // session stop time (eg "11:50 AM")
-                                                @"<td>(?<clash>.*?)</td>" +                         // has a clash occured (pretty useless for our purposes)
-                                                @"<td>(?<building_name>.*?)</td>" +                 // full building name (eg "Forgan Smith Building")
-                                                @"<td>(?<building_number>.*?)</td>" +               // building number (eg "01")
-                                                @"<td>(?<room>.*?)</td>" +                          // room code (eg "205", "E105"
-                                                @"<td>(?<running_dates>.*?)</td>" +                 // time period over which the stream runs
-                                                @"<td>(?<not_taught_on>.*?)</td>" +                 // date the stream is not taught on
-                                                @"<td>.*?</td>" +                                   // unknown
-                                                @"<td>.*?</td>" +                                   // unknown
-                                                @"<td>(?<session_type_long2>.*?)</td>" +            // not sure why this is here ?
-                                                @"</tr>"                                            // close row
-                                               );
-
-            string current_day = "";
+            // Which day are the current sessions on?
+            int current_day = -1;
 
             foreach (Match match in timetable_parser.Matches(timetable_html))
             {
                 GroupCollection session_info = match.Groups;
-                if (session_info["subject_code"].Value.Contains("day")) // if we are talking about a day here
+                string subject_code = session_info["subject_code"].Value;
+                if (subject_code.Contains("day"))
                 {
-                    current_day = session_info["subject_code"].Value; // save it as the current day
-                    continue;
-                }
-
-                if (current_day != "") // if we have a day selected already
-                {
-                    /****************************************************************************
-                     * Build a session object
-                     ****************************************************************************/
-
-                    session = new Session(); // build a new session
-                    switch (current_day.Substring(0,2)) // and assign the current day to it
+                    // If we are talking about a day here.
+                    switch (subject_code.Substring(0, 2))
                     {
                         case "Su":
-                            session.Day = 0;
+                            current_day = 0;
                             break;
                         case "Mo":
-                            session.Day = 1;
+                            current_day = 1;
                             break;
                         case "Tu":
-                            session.Day = 2;
+                            current_day = 2;
                             break;
                         case "We":
-                            session.Day = 3;
+                            current_day = 3;
                             break;
                         case "Th":
-                            session.Day = 4;
+                            current_day = 4;
                             break;
                         case "Fr":
-                            session.Day = 5;
+                            current_day = 5;
                             break;
                         case "Sa":
-                            session.Day = 6;
+                            current_day = 6;
                             break;
                         default:
-                            session.Day = -1;
+                            current_day = -1;
                             break;
                     }
-
-                    // do a sequential search to find if the subject has already been recorded
+                    continue;
+                }
+                // If we have a day selected already.
+                if (current_day != -1)
+                {
+                    // Build a session object.
+                    Session session = new Session();
+                    session.Day = current_day;
+                    // Do a sequential search for the subject.
+                    Subject subject = null;
                     for (int i = 0; i < timetable.SubjectList.Count; i++)
                     {
-                        if (timetable.SubjectList[i].Name == session_info["subject_code"].Value)
+                        if (timetable.SubjectList[i].Name == subject_code)
                         {
                             subject = timetable.SubjectList[i];
                             break;
                         }
                     }
-
-                    // if it hasn't been, record it
-                    if (subject == null) // more edge cases, damn you UQ
+                    // If it doesn't exist, create it.
+                    if (subject == null)
                     {
-                        subject = new Subject(session_info["subject_code"].Value);
+                        subject = new Subject(subject_code);
                         timetable.SubjectList.Add(subject);
                     }
 
-                    /****************************************************************************
-                     * Build a type object
-                     ****************************************************************************/
-
-                    // check if the session type exists
+                    // Get a session type.
+                    Type type = null;
+                    // Check if the session type exists.
+                    string session_code = session_info["stream_code"].Value;
+                    string stream_code = session_code.Substring(0, 1);
                     foreach (Type x in subject.Types)
                     {
-                        if (x.Code == (session_info["stream_code"].Value).Substring(0, 1)) // if there is a match on the first letter of the stream type
+                        if (x.Code == stream_code)
                         {
+                            // Matched on the first letter.
                             type = x;
                             break;
                         }
                     }
-
-                    // if the session type doesn't exist, create it
                     if (type == null)
                     {
-                        type = new Type(session_info["session_type_long"].Value, (session_info["stream_code"].Value).Substring(0, 1), subject);
-                        type.Required = (
-                                            ((session_info["stream_code"].Value).Substring(0, 1) != "C") &&
-                                            ((session_info["stream_code"].Value).Substring(0, 1) != "W") &&
-                                            ((session_info["stream_code"].Value).Substring(0, 1) != "S")
-                                         ); // check if this session requires attendance 
+                        // The session type doesn't exist, create it.
+                        type = new Type(session_info["session_type_name"].Value,
+                                        stream_code,
+                                        subject);
+                        // Check if this session requires attendance.
+                        type.Required = (stream_code != "W" &&
+                            stream_code != "S" &&
+                            stream_code != "C");
                         timetable.TypeList.Add(type);
                     }
 
-                    /****************************************************************************
-                     * Build a stream object
-                     ****************************************************************************/
-
-                    // grab the stream number
-                    if (session_info["stream_code"].Value.Length == 1)
+                    // Get a stream object.
+                    // Grab the stream number.
+                    int stream_number = 0;
+                    if (session_code.Length != 1)
                     {
-                        stream_number = 0;
+                        // Chop the letter off the stream code.
+                        stream_number = Convert.ToInt32(session_code.Substring(1));
                     }
-                    else
-                    {
-                        stream_number = Convert.ToInt32(session_info["stream_code"].Value.Substring(1)); // chop the letter off the stream code
-                    }
-
-                    // check if the stream exists
+                    // Search to see if the stream exists.
+                    Stream stream = null;
                     foreach (Stream x in type.Streams)
                     {
                         if (x.Number == stream_number)
@@ -377,28 +359,29 @@ namespace UniTimetable
                             break;
                         }
                     }
-
-                    // otherwise build it
+                    // Otherwise build a new one.
                     if (stream == null)
                     {
                         stream = new Stream(stream_number);
-                        timetable.StreamList.Add(stream); // tack it in the stream list
+                        // Tack it on to the stream list.
+                        timetable.StreamList.Add(stream);
                     }
 
-                    // link together the subject and type
+                    // Link the subject and type.
                     if (!subject.Types.Contains(type)) 
                     {
                         subject.Types.Add(type);
                         type.Subject = subject;
                     }
-                    // link together the stream and type
+                    // Link the stream and type.
                     if (!type.Streams.Contains(stream))
                     {
                         type.Streams.Add(stream);
                         stream.Type = type;
                     }
-                    // and now link the stream and class together
-                    timetable.ClassList.Add(session); // throw it on our list of classes
+                    // Link the stream and class together.
+                    // Add it to our list of classes.
+                    timetable.ClassList.Add(session);
                     stream.Classes.Add(session);
                     session.Stream = stream;
 
@@ -430,9 +413,7 @@ namespace UniTimetable
                         session.EndMinute = 0;
                     }
 
-                    /****************************************************************************
-                     * Insert building location
-                     ****************************************************************************/
+                    // Insert building location
                     if (session_info["building_number"].Value.Trim() == "")
                     {
                         session.Location = "";
@@ -441,18 +422,11 @@ namespace UniTimetable
                     {
                         session.Location = session_info["building_number"].Value;
                     }
-
                     if (session_info["room"].Value.Trim() != "")
                     {
                         session.Location += " - " + session_info["room"];
                     }
                 }
-
-                stream_number = 0;
-                stream = null;
-                session = null;
-                type = null;
-                subject = null;
             }
 
             return timetable;
