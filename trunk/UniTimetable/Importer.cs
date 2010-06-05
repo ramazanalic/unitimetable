@@ -186,276 +186,274 @@ namespace UniTimetable
 
             // create an object to read the input file
             StreamReader streamReader = new StreamReader(fileName);
-            string line;
-            int pos, len;
-            int rowLine = 0;
-
-            int day = -1;
-            string typeName = "";
-
+            
+            int stream_number = 0;
             Subject subject = null;
             Type type = null;
             Stream stream = null;
             Session session = null;
 
-            // keep reading lines to the end of the file
-            while ((line = streamReader.ReadLine()) != null)
+            // first of all, let's dump the whole file into a string
+            string timetable_html = streamReader.ReadToEnd(); 
+            streamReader.Close();
+
+            /****** Remove useless information ******/
+
+            // anything in the following list of regexes will be removed from the string
+            string[] replacements = {
+                                        @"\n",                      // we get rid of newlines so we don't have to bother with multiline regex
+                                        @"<html.*?>",               // opening html
+                                        @"<!--.*?-->",              // html comments
+                                        @"=&quot;", @"&quot;",      // html-escaped quotes
+                                        @"&nbsp;",                  // html-escaped spaces (these are useless anyway as the file contains normal spaces where needed)
+                                        @"<meta.*?>",               // meta tags
+                                        @"<tr><th>.*?</th></tr>",   // table headers
+                                        @"</tr>",                   // remove close row tags (this will make sense for the cleanups)
+                                        @"<table.*?>",              // table opening tag
+                                        @"<body.*?>",               // body open tag
+                                        @"</body></html>"           // end page tags (these are invalid anyway as the tags are never opened)
+                                    };
+            // run the replacements
+            foreach (string replace_regex in replacements) 
             {
-                string data = null;
+                timetable_html = Regex.Replace(timetable_html, replace_regex, "");
+            }
 
-                // updated to ignore html added by SINet
-                if (line.StartsWith("<html") || line.StartsWith("<!--") || line.StartsWith("<meta") || line.StartsWith("<td>&nbsp;"))
+            /****** Clean up the syntax of the file ******/
+
+            // now build a dictionary of regex cleanups to make the file nice and parseable
+            Dictionary<string, string> cleanups = new Dictionary<string,string>(); // probably should use a pair, but this requires less code and is probably more efficient
+            
+            // put the ampersands back in
+            cleanups.Add(@"&amp;", "&"); 
+
+            // we can assume that each <tr> actually means </tr><tr> in valid html, so we will insert the correct ones
+            cleanups.Add(@"<tr>", "</tr><tr>"); // unfortunately as a result of this cleanup, there will be a </tr> at the start of the file
+
+            // we can also assume that the </table> tag actually represents a </tr>, so replace accordingly
+            cleanups.Add(@"</table>", "</tr>");
+
+            // run the cleanups
+            foreach (string cleanup_regex in cleanups.Keys) 
+            {
+                timetable_html = Regex.Replace(timetable_html, cleanup_regex, cleanups[cleanup_regex]);
+            }
+
+            // get rid of the extra </tr> generated at the start of the file a result of the 2nd cleanup
+            // we need to build a regex object to use the replace-n feature of Regex
+            //      see http://msdn.microsoft.com/en-us/library/haekbhys.aspx
+            Regex replace_ = new Regex(@"</tr>");
+            timetable_html = replace_.Replace(timetable_html, "", 1);
+
+            // let's build the regex we need to parse the file
+            Regex timetable_parser = new Regex( @"<tr>" +                                           // start row
+                                                @"<td>(?<subject_code>.*?)</td>" +                  // subject code (eg "BIOM2012")
+                                                @"<td>(?<subject_desc>.*?)</td>" +                  // subject description (eg "Machine Learning")
+                                                @"<td>(?<session_type_long>.*?)</td>" +             // session time in long form (eg "Tutorial", "Lecture")
+                                                @"<td>(?<stream_code>.*?)</td>" +                   // stream (eg "T7", "L2", "P")
+                                                @"<td>(?<start_time>.*?)</td>" +                    // session start time (eg "11:00 AM")
+                                                @"<td>(?<stop_time>.*?)</td>" +                     // session stop time (eg "11:50 AM")
+                                                @"<td>(?<clash>.*?)</td>" +                         // has a clash occured (pretty useless for our purposes)
+                                                @"<td>(?<building_name>.*?)</td>" +                 // full building name (eg "Forgan Smith Building")
+                                                @"<td>(?<building_number>.*?)</td>" +               // building number (eg "01")
+                                                @"<td>(?<room>.*?)</td>" +                          // room code (eg "205", "E105"
+                                                @"<td>(?<running_dates>.*?)</td>" +                 // time period over which the stream runs
+                                                @"<td>(?<not_taught_on>.*?)</td>" +                 // date the stream is not taught on
+                                                @"<td>.*?</td>" +                                   // unknown
+                                                @"<td>.*?</td>" +                                   // unknown
+                                                @"<td>(?<session_type_long2>.*?)</td>" +            // not sure why this is here ?
+                                                @"</tr>"                                            // close row
+                                               );
+
+            string current_day = "";
+
+            foreach (Match match in timetable_parser.Matches(timetable_html))
+            {
+                GroupCollection session_info = match.Groups;
+                if (session_info["subject_code"].Value.Contains("day")) // if we are talking about a day here
                 {
-                    // don't care about this because it is useless (thanks SINet crew!)
+                    current_day = session_info["subject_code"].Value; // save it as the current day
                     continue;
                 }
 
-                if ((line == "<td></td>") && (day == -1))
+                if (current_day != "") // if we have a day selected already
                 {
-                    continue;
-                }
-                else if (line == "<td></td>")
-                {
-                    rowLine++;
-                    continue;
-                }
+                    /****************************************************************************
+                     * Build a session object
+                     ****************************************************************************/
 
-                // if we've found the start of a day
-                if (line.Contains("day"))
-                {
-                    // look for the ';' before the start of the name of the day
-                    // from 7 characters before the location of "day"
-                    // (WEDNESday = 6 chars max => 7 to include ';')
-                    
-                    // just get the first 2 characters of the day name
-                    len = 2;
-                    string tmp = line.Replace("=&quot;", "").Replace("&quot;", "");
-
-                    pos = tmp.IndexOf(";", tmp.IndexOf("day") - 7) + 1;
-                    data = tmp.Substring(pos + 4, len);
-                    // find the zero-indexed day number
-                    switch (data)
+                    session = new Session(); // build a new session
+                    switch (current_day.Substring(0,2)) // and assign the current day to it
                     {
                         case "Su":
-                            day = 0;
+                            session.Day = 0;
                             break;
                         case "Mo":
-                            day = 1;
+                            session.Day = 1;
                             break;
                         case "Tu":
-                            day = 2;
+                            session.Day = 2;
                             break;
                         case "We":
-                            day = 3;
+                            session.Day = 3;
                             break;
                         case "Th":
-                            day = 4;
+                            session.Day = 4;
                             break;
                         case "Fr":
-                            day = 5;
+                            session.Day = 5;
                             break;
                         case "Sa":
-                            day = 6;
+                            session.Day = 6;
                             break;
                         default:
-                            day = -1;
+                            session.Day = -1;
                             break;
                     }
-                    // clear the current subject - starting a new day
-                    subject = null;
-                    // go to the next line
-                    continue;
-                }
 
-                // if we haven't identified the current day, skip
-                if (day == -1)
-                    continue;
-
-                // the start of a row
-                if (line.Contains("<tr"))
-                {
-                    rowLine = 0;
-                    continue;
-                }
-
-                // increase the number of lines seen in the current row
-                rowLine++;
-
-                // if the line contains the start of a cell and not the end, parse until we've found the end
-                if (line.Contains("<td") && !line.Contains("</td>"))
-                {
-                    string nextLine;
-                    while (!(nextLine = streamReader.ReadLine()).Contains("</td>"))
-                        line += " " + nextLine;
-                    line += " " + nextLine;
-                }
-
-                // not a line we're interested in, skip
-                if (!(rowLine == 1 || (rowLine >= 3 && rowLine <= 6) || rowLine == 9 || rowLine == 10))
-                    continue;
-
-                // get rid of the <td> and </td>
-                data = line.Replace("<td>", "").Replace("</td>", "").Replace("=&quot;", "").Replace("&quot;", "");
-
-                // data contains subject name
-                if (rowLine == 1)
-                {
-                    // add new class
-                    session = new Session();
-                    session.Day = day;
-
-                    if (line != "</td>") // hack, thanks again UQ team
-                    {
-                        timetable.ClassList.Add(session);
-                    }
-
-                    // add subject data to class
-                    subject = null;
-                    // sequential search for subject by name
+                    // do a sequential search to find if the subject has already been recorded
                     for (int i = 0; i < timetable.SubjectList.Count; i++)
                     {
-                        if (timetable.SubjectList[i].Name == data)
+                        if (timetable.SubjectList[i].Name == session_info["subject_code"].Value)
                         {
                             subject = timetable.SubjectList[i];
                             break;
                         }
                     }
-                    // couldn't find subject - create a new one with the name and add to list
-                    if ((subject == null) && (line != "</td>")) // more edge cases, damn you UQ
+
+                    // if it hasn't been, record it
+                    if (subject == null) // more edge cases, damn you UQ
                     {
-                        subject = new Subject(data);
+                        subject = new Subject(session_info["subject_code"].Value);
                         timetable.SubjectList.Add(subject);
                     }
-                }
 
-                // line contains a value
-                if (line.Contains("=&quot;"))
-                {
-                    // start of value: "=&quot;".Length => 7;
-                    pos = line.IndexOf("=&quot;") + 7;
-                    len = line.IndexOf("&quot;", pos) - pos;
-                    data = line.Substring(pos, len);
-                }
-                // backwards compatility - type name didn't used to have ="    " around it
-                else if (rowLine == 2)
-                {
-                    // take data to be between tags
-                    pos = line.IndexOf('>', line.IndexOf("<td")) + 1;
-                    len = line.IndexOf('<', pos) - pos;
-                    data = line.Substring(pos, len);
-                }
-                
-                // data contains type name
-                if (rowLine == 3)
-                {
-                    typeName = data;
-                }
-                // data contains type letter and stream number
-                else if (rowLine == 4)
-                {
-                    type = null;
-                    // do sequential search for type letter
+                    /****************************************************************************
+                     * Build a type object
+                     ****************************************************************************/
+
+                    // check if the session type exists
                     foreach (Type x in subject.Types)
                     {
-                        if (x.Code == data.Substring(0, 1))
+                        if (x.Code == (session_info["stream_code"].Value).Substring(0, 1)) // if there is a match on the first letter of the stream type
                         {
                             type = x;
                             break;
                         }
                     }
-                    // didn't find type - create new
+
+                    // if the session type doesn't exist, create it
                     if (type == null)
                     {
-                        type = new Type(typeName, data.Substring(0, 1), subject);
-                        // automatically ignore Contacts, Workshops and Seminars
-                        type.Required = (data[0] != 'C' && data[0] != 'W' && data[0] != 'S');
-                        // add new type to list
+                        type = new Type(session_info["session_type_long"].Value, (session_info["stream_code"].Value).Substring(0, 1), subject);
+                        type.Required = (
+                                            ((session_info["stream_code"].Value).Substring(0, 1) != "C") &&
+                                            ((session_info["stream_code"].Value).Substring(0, 1) != "W") &&
+                                            ((session_info["stream_code"].Value).Substring(0, 1) != "S")
+                                         ); // check if this session requires attendance 
                         timetable.TypeList.Add(type);
                     }
 
-                    // get stream number from data
-                    int number;
-                    if (data.Length == 1)
+                    /****************************************************************************
+                     * Build a stream object
+                     ****************************************************************************/
+
+                    // grab the stream number
+                    if (session_info["stream_code"].Value.Length == 1)
                     {
-                        number = 0;
+                        stream_number = 0;
                     }
                     else
                     {
-                        Match match = Regex.Match(data, @"\d+");
-                        number = Convert.ToInt32(match.Value);
+                        stream_number = Convert.ToInt32(session_info["stream_code"].Value.Substring(1)); // chop the letter off the stream code
                     }
-                    // do sequential search for stream with the right number
-                    stream = null;
+
+                    // check if the stream exists
                     foreach (Stream x in type.Streams)
                     {
-                        if (x.Number == number)
+                        if (x.Number == stream_number)
                         {
                             stream = x;
                             break;
                         }
                     }
-                    // didn't find stream - create new
+
+                    // otherwise build it
                     if (stream == null)
                     {
-                        stream = new Stream(number);
-                        // add to the list
-                        timetable.StreamList.Add(stream);
+                        stream = new Stream(stream_number);
+                        timetable.StreamList.Add(stream); // tack it in the stream list
                     }
 
-                    // link subject and type
-                    if (!subject.Types.Contains(type))
+                    // link together the subject and type
+                    if (!subject.Types.Contains(type)) 
                     {
                         subject.Types.Add(type);
                         type.Subject = subject;
                     }
-                    // link type and stream
+                    // link together the stream and type
                     if (!type.Streams.Contains(stream))
                     {
                         type.Streams.Add(stream);
                         stream.Type = type;
                     }
-                    // link stream and class
+                    // and now link the stream and class together
+                    timetable.ClassList.Add(session); // throw it on our list of classes
                     stream.Classes.Add(session);
                     session.Stream = stream;
-                }
-                // data contains start time
-                else if (rowLine == 5)
-                {
-                    session.StartHour = Convert.ToInt32(data.Substring(0, data.IndexOf(':')));
-                    session.StartMinute = Convert.ToInt32(data.Substring(data.IndexOf(':') + 1, 2));
-                    if (data.ToLower().Contains("p") && session.StartHour != 12)
-                        session.StartHour += 12;
-                }
-                // data contains end time
-                else if (rowLine == 6)
-                {
-                    session.EndHour = Convert.ToInt32(data.Substring(0, data.IndexOf(':')));
-                    session.EndMinute = Convert.ToInt32(data.Substring(data.IndexOf(':') + 1, 2));
-                    if (data.ToLower().Contains("p") && session.EndHour != 12)
-                        session.EndHour += 12;
+
+                    /****************************************************************************
+                     * Calculate session start and stop times
+                     ****************************************************************************/
+
+                    string start_time = session_info["start_time"].Value;
+                    int colon_index = start_time.IndexOf(":");
+
+                    session.StartHour = Convert.ToInt32(start_time.Substring(0, colon_index)); // grab everything before the colon
+                    session.StartMinute = Convert.ToInt32(start_time.Substring(colon_index + 1, 2)); // grab two characters after the colon
+                    if (start_time.ToLower().Contains("p") && session.StartHour != 12) // if there is a PM in the time
+                    {
+                        session.StartHour += 12; // correct for it
+                    }
+
+                    string stop_time = session_info["stop_time"].Value;
+                    colon_index = stop_time.IndexOf(":");
+                    session.EndHour = Convert.ToInt32(stop_time.Substring(0, colon_index)); // grab everything before the colon
+                    session.EndMinute = Convert.ToInt32(stop_time.Substring(colon_index + 1, 2)); // grab two characters after the colon
+                    if (stop_time.ToLower().Contains("p") && session.EndHour != 12) // if there is a PM in the time
+                    {
+                        session.EndHour += 12; // correct for it
+                    }
                     if (session.EndMinute >= 50)
                     {
                         session.EndHour++;
                         session.EndMinute = 0;
                     }
+
+                    /****************************************************************************
+                     * Insert building location
+                     ****************************************************************************/
+                    if (session_info["building_number"].Value.Trim() == "")
+                    {
+                        session.Location = "";
+                    }
+                    else
+                    {
+                        session.Location = session_info["building_number"].Value;
+                    }
+
+                    if (session_info["room"].Value.Trim() != "")
+                    {
+                        session.Location += " - " + session_info["room"];
+                    }
                 }
-                // data contains building
-                else if (rowLine == 9)
-                {
-                    // don't use just special character such as _ or ?
-                    if (data.Trim().Length == 0)
-                        data = "";
-                    session.Location = data;
-                }
-                // data contains room
-                else if (rowLine == 10)
-                {
-                    if (data.Trim().Length == 0)
-                        data = "";
-                    session.Location += "-" + data;
-                }
+
+                stream_number = 0;
+                stream = null;
+                session = null;
+                type = null;
+                subject = null;
             }
-            streamReader.Close();
 
             return timetable;
         }
