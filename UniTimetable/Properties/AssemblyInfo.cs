@@ -10,6 +10,10 @@ using System.Runtime.InteropServices;
 
 Latest version available from http://jack.valmadre.net/timetable/
 
+Contributors:
+Jack Valmadre
+Jeremy Herbert
+
 Funky icons sourced from www.vistaicons.com, www.photoshopguidesign.com, mazenl77.deviantart.com")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jack Valmadre")]
@@ -33,5 +37,5 @@ Funky icons sourced from www.vistaicons.com, www.photoshopguidesign.com, mazenl7
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("2.0.2.0")]
-[assembly: AssemblyFileVersion("2.0.2.0")]
+[assembly: AssemblyVersion("2.1.0.0")]
+[assembly: AssemblyFileVersion("2.1.0.0")]
