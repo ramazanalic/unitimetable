@@ -1,0 +1,347 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000-2005 PeopleSoft, Inc.  All Rights Reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Course</th><th>Course Title</th><th>Class Type</th><th>Class</th><th>Start</th><th>End</th><th>Clash</th><th>Building Name</th><th>Building Number</th><th>Room</th><th>Start/End Date (DD/MM/YYYY)</th><th>Not taught on these dates (DD/MM/YYYY)</th><th>Signon Avail</th><th>Student Signon</th><th>Group Name</th></tr>
+<tr>
+<td>=&quot;Monday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;COMP4702&quot;</td>
+<td>=&quot;Machine Learning&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td></td>
+<td>=&quot;Forgan Smith Building&quot;</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E301&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 01/03/2010&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;MECH3300&quot;</td>
+<td>=&quot;Finite Element Method&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Physiology Lecture Theatres&quot;</td>
+<td>=&quot;63&quot;</td>
+<td>=&quot;358&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;MECH3250&quot;</td>
+<td>=&quot;Engineering Acoustics&quot;</td>
+<td>=&quot;Field Work&quot;</td>
+<td>=&quot;F&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>=&quot;19/04/2010 - 24/05/2010&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Field Work&quot;</td>
+<tr>
+<td>=&quot;Tuesday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;MECH3300&quot;</td>
+<td>=&quot;Finite Element Method&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td></td>
+<td>=&quot;Physiology Lecture Theatres&quot;</td>
+<td>=&quot;63&quot;</td>
+<td>=&quot;358&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;ELEC4600&quot;</td>
+<td>=&quot;Signal &amp; Image Processing II&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td></td>
+<td>=&quot;General Purpose North 3&quot;</td>
+<td>=&quot;39A&quot;</td>
+<td>=&quot;201&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;MECH3250&quot;</td>
+<td>=&quot;Engineering Acoustics&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Frank White Building&quot;</td>
+<td>=&quot;43&quot;</td>
+<td>=&quot;102&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;MECH3300&quot;</td>
+<td>=&quot;Finite Element Method&quot;</td>
+<td>=&quot;IT&quot;</td>
+<td>=&quot;I4&quot;</td>
+<td>=&quot;01:00 PM&quot;</td>
+<td>=&quot;02:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;General Purpose South&quot;</td>
+<td>=&quot;78&quot;</td>
+<td>=&quot;336&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 02/03/2010; 16/03/2010; 30/03/2010; 06/04/2010; 20/04/2010; 27/04/2010; 11/05/2010; 25/05/2010&quot;</td>
+<td>Closed</td>
+<td>Complete</td>
+<td>=&quot;IT&quot;</td>
+<tr>
+<td>=&quot;COMP4702&quot;</td>
+<td>=&quot;Machine Learning&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Forgan Smith Building&quot;</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E356&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;ELEC4600&quot;</td>
+<td>=&quot;Signal &amp; Image Processing II&quot;</td>
+<td>=&quot;IT&quot;</td>
+<td>=&quot;I2&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;General Purpose South&quot;</td>
+<td>=&quot;78&quot;</td>
+<td>=&quot;208&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 27/04/2010&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;IT&quot;</td>
+<tr>
+<td>=&quot;MECH3300&quot;</td>
+<td>=&quot;Finite Element Method&quot;</td>
+<td>=&quot;Seminar&quot;</td>
+<td>=&quot;S2&quot;</td>
+<td>=&quot;05:00 PM&quot;</td>
+<td>=&quot;06:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Prentice Building&quot;</td>
+<td>=&quot;42&quot;</td>
+<td>=&quot;115&quot;</td>
+<td>=&quot;18/05/2010 - 18/05/2010&quot;</td>
+<td></td>
+<td>Open</td>
+<td>Complete</td>
+<td>=&quot;Seminar&quot;</td>
+<tr>
+<td>=&quot;Thursday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;MECH3250&quot;</td>
+<td>=&quot;Engineering Acoustics&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td></td>
+<td>=&quot;Forgan Smith Building&quot;</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E302&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;COMP4702&quot;</td>
+<td>=&quot;Machine Learning&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;01:50 PM&quot;</td>
+<td></td>
+<td>=&quot;General Purpose South&quot;</td>
+<td>=&quot;78&quot;</td>
+<td>=&quot;208&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td>=&quot; 04/03/2010&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;Friday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;MECH3300&quot;</td>
+<td>=&quot;Finite Element Method&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;08:50 AM&quot;</td>
+<td></td>
+<td>=&quot;Parnell Building&quot;</td>
+<td>=&quot;07&quot;</td>
+<td>=&quot;222&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;ELEC4600&quot;</td>
+<td>=&quot;Signal &amp; Image Processing II&quot;</td>
+<td>=&quot;Lecture&quot;</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td></td>
+<td>=&quot;General Purpose North 3&quot;</td>
+<td>=&quot;39A&quot;</td>
+<td>=&quot;201&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Lecture&quot;</td>
+<tr>
+<td>=&quot;MECH3300&quot;</td>
+<td>=&quot;Finite Element Method&quot;</td>
+<td>=&quot;Practical&quot;</td>
+<td>=&quot;P12&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td></td>
+<td>=&quot;Frank White Annexe&quot;</td>
+<td>=&quot;44&quot;</td>
+<td>=&quot;159A&quot;</td>
+<td>=&quot;22/03/2010 - 26/03/2010&quot;</td>
+<td></td>
+<td>Closed</td>
+<td>Complete</td>
+<td>=&quot;Practical&quot;</td>
+<tr>
+<td>=&quot;MECH3250&quot;</td>
+<td>=&quot;Engineering Acoustics&quot;</td>
+<td>=&quot;Tutorial&quot;</td>
+<td>=&quot;T&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Prentice Building&quot;</td>
+<td>=&quot;42&quot;</td>
+<td>=&quot;212&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;Tutorial&quot;</td>
+<tr>
+<td>=&quot;ELEC4600&quot;</td>
+<td>=&quot;Signal &amp; Image Processing II&quot;</td>
+<td>=&quot;IT&quot;</td>
+<td>=&quot;I1&quot;</td>
+<td>=&quot;02:00 PM&quot;</td>
+<td>=&quot;03:50 PM&quot;</td>
+<td></td>
+<td>=&quot;General Purpose South&quot;</td>
+<td>=&quot;78&quot;</td>
+<td>=&quot;208&quot;</td>
+<td>=&quot;01/03/2010 - 05/06/2010&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>=&quot;IT&quot;</td>
+</table></body></html>

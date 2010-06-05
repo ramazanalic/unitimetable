@@ -1,0 +1,2214 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2009, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Course</th><th>Course Title</th><th>Class Type</th><th>Class</th><th>Start</th><th>End</th><th>Clash</th><th>Building Name</th><th>Building Number</th><th>Room</th><th>Start/End Date (DD/MM/YYYY)</th><th>Not taught on these dates (DD/MM/YYYY)</th><th>Signon Avail</th><th>Student Signon</th><th>Group Name</th></tr>
+<tr>
+<td>Monday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T18</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W408</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010; 13/09/2010; 20/09/2010; 27/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C1</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose North 3</td>
+<td>39A</td>
+<td>201</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C4</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose North 3</td>
+<td>39A</td>
+<td>201</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T8</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C10</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose North 3</td>
+<td>39A</td>
+<td>201</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Lecture</td>
+<td>L1</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Steele Building</td>
+<td>=&quot;03&quot;</td>
+<td>206</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T14</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Steele Building</td>
+<td>=&quot;03&quot;</td>
+<td>234</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010; 02/08/2010; 09/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T19</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C516</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010; 02/08/2010; 09/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C11</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>212</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T1</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Priestley Building</td>
+<td>67</td>
+<td>343</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T2</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Priestley Building</td>
+<td>67</td>
+<td>141</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T17</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T19</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T22</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>344</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T1</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W408</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010; 02/08/2010; 09/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T15</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Sir Llew Edwards Building</td>
+<td>14</td>
+<td>217</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010; 02/08/2010; 09/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T20</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Michie Building</td>
+<td>=&quot;09&quot;</td>
+<td>643</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010; 02/08/2010; 09/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C6</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose North 3</td>
+<td>39A</td>
+<td>201</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T1</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Lecture</td>
+<td>L1</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Schonell Theatre</td>
+<td>22</td>
+<td>201</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T2</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W408</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010; 02/08/2010; 09/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T21</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>Gordon Greenwood Building</td>
+<td>32</td>
+<td>215</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010; 02/08/2010; 09/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C2</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>212</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C5</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E232&quot;</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T3</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E303&quot;</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T3</td>
+<td>03:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W408</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010; 02/08/2010; 09/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T22</td>
+<td>03:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C516</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010; 02/08/2010; 09/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C3</td>
+<td>03:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>212</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T23</td>
+<td>04:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C512</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 26/07/2010; 02/08/2010; 09/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T31</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>211</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T37</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>214</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>Tuesday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T4</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Sir Llew Edwards Building</td>
+<td>14</td>
+<td>217</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T5</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Goddard Building</td>
+<td>=&quot;08&quot;</td>
+<td>212</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T4</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W229</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010; 14/09/2010; 21/09/2010; 28/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C7</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose North 3</td>
+<td>39A</td>
+<td>201</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T5</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W229</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010; 14/09/2010; 21/09/2010; 28/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C12</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Sir Llew Edwards Building</td>
+<td>14</td>
+<td>216</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C13</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>212</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T28</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>215</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T32</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C412</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T41</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C413</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T6</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W229</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010; 14/09/2010; 21/09/2010; 28/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C14</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose North 3</td>
+<td>39A</td>
+<td>201</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T7</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W229</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010; 14/09/2010; 21/09/2010; 28/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Lecture</td>
+<td>L1</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Schonell Theatre</td>
+<td>22</td>
+<td>201</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T29</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T33</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose North 3</td>
+<td>39A</td>
+<td>203</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Lecture</td>
+<td>L2</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Prentice Building</td>
+<td>42</td>
+<td>115</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C8</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose North 3</td>
+<td>39A</td>
+<td>201</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T6</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C413</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C9</td>
+<td>03:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose North 3</td>
+<td>39A</td>
+<td>201</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T2</td>
+<td>04:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W408</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010; 14/09/2010; 21/09/2010; 28/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T12</td>
+<td>04:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W409</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010; 14/09/2010; 21/09/2010; 28/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Lecture</td>
+<td>L2</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Parnell Building</td>
+<td>=&quot;07&quot;</td>
+<td>234</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T38</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>214</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T3</td>
+<td>05:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W408</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010; 14/09/2010; 21/09/2010; 28/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T13</td>
+<td>05:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W409</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010; 14/09/2010; 21/09/2010; 28/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C15</td>
+<td>06:00 PM</td>
+<td>06:50 PM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>213</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Contact
+PASS</td>
+<td>C16</td>
+<td>06:00 PM</td>
+<td>06:50 PM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>212</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 27/07/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+PASS</td>
+<tr>
+<td>Wednesday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T4</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W229</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 04/08/2010; 11/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T10</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>210</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T23</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Colin Clark Building</td>
+<td>39</td>
+<td>105</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T24</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Steele Building</td>
+<td>=&quot;03&quot;</td>
+<td>323</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T2</td>
+<td>08:30 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E219&quot;</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T3</td>
+<td>08:30 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E301&quot;</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T5</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W229</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 04/08/2010; 11/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T16</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W409</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 04/08/2010; 11/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T21</td>
+<td>09:30 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>S437</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T6</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W229</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 04/08/2010; 11/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T17</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W409</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 04/08/2010; 11/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T11</td>
+<td>10:00 AM</td>
+<td>11:20 AM</td>
+<td>CLASH</td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T22</td>
+<td>10:00 AM</td>
+<td>11:20 AM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C415</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Lecture</td>
+<td>L1</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Abel Smith Lecture Theatre</td>
+<td>23</td>
+<td>1</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T13</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>210</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T7</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W229</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 04/08/2010; 11/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T18</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W343</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 04/08/2010; 11/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T14</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W343</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 15/09/2010; 22/09/2010; 29/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T24</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Steele Building</td>
+<td>=&quot;03&quot;</td>
+<td>234</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 04/08/2010; 11/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T7</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T11</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T30</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T34</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>214</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T15</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W343</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 15/09/2010; 22/09/2010; 29/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T25</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Steele Building</td>
+<td>=&quot;03&quot;</td>
+<td>234</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 04/08/2010; 11/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T24</td>
+<td>01:00 PM</td>
+<td>02:20 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>320</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T16</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W343</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 15/09/2010; 22/09/2010; 29/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T8</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W408</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 04/08/2010; 11/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T17</td>
+<td>02:00 PM</td>
+<td>03:20 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E303&quot;</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T23</td>
+<td>02:00 PM</td>
+<td>03:20 PM</td>
+<td>CLASH</td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Lecture</td>
+<td>L2</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Schonell Theatre</td>
+<td>22</td>
+<td>201</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T9</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Goddard Building</td>
+<td>=&quot;08&quot;</td>
+<td>212</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T35</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C412</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T17</td>
+<td>03:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W343</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 15/09/2010; 22/09/2010; 29/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T18</td>
+<td>03:30 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E303&quot;</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Lecture</td>
+<td>L2</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E109&quot;</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T8</td>
+<td>04:00 PM</td>
+<td>05:20 PM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C416</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T12</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Sir Llew Edwards Building</td>
+<td>14</td>
+<td>217</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T15</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Colin Clark Building</td>
+<td>39</td>
+<td>103</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T25</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Colin Clark Building</td>
+<td>39</td>
+<td>105</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T26</td>
+<td>06:00 PM</td>
+<td>06:50 PM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C512</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T25</td>
+<td>06:00 PM</td>
+<td>07:20 PM</td>
+<td>CLASH</td>
+<td>Michie Building</td>
+<td>=&quot;09&quot;</td>
+<td>722</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T39</td>
+<td>06:00 PM</td>
+<td>07:50 PM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>214</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T27</td>
+<td>07:00 PM</td>
+<td>07:50 PM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C512</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 28/07/2010; 04/08/2010; 11/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>Thursday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T9</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W408</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T21</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>210</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T10</td>
+<td>08:30 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C415</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T12</td>
+<td>08:30 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C416</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T10</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W408</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 29/07/2010; 05/08/2010; 12/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T11</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W408</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 29/07/2010; 05/08/2010; 12/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T13</td>
+<td>10:00 AM</td>
+<td>11:20 AM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C416</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T14</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C511</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T12</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W408</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 29/07/2010; 05/08/2010; 12/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T19</td>
+<td>11:30 AM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C416</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T8</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W409</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T9</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1115</td>
+<td>Principles of Public Law</td>
+<td>Tutorial</td>
+<td>T13</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>Steele Building</td>
+<td>=&quot;03&quot;</td>
+<td>329</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 29/07/2010; 05/08/2010; 12/08/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T16</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>215</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T27</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>S437</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T10</td>
+<td>03:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Michie Building</td>
+<td>=&quot;09&quot;</td>
+<td>540</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 29/07/2010; 16/09/2010; 23/09/2010; 30/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T16</td>
+<td>03:30 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>320</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>LAWS1114</td>
+<td>Law of Torts B</td>
+<td>Tutorial</td>
+<td>T11</td>
+<td>04:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>W409</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td> 29/07/2010; 16/09/2010; 23/09/2010; 30/09/2010</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T9</td>
+<td>04:00 PM</td>
+<td>05:20 PM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C415</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>Friday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T4</td>
+<td>08:30 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E219&quot;</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T1</td>
+<td>09:00 AM</td>
+<td>10:20 AM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C416</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T18</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C511</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T5</td>
+<td>10:30 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Hartley Teakle Building</td>
+<td>83</td>
+<td>C416</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T7</td>
+<td>11:30 AM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Forgan Smith Building</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E107&quot;</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ECON1310</td>
+<td>Quant Econ &amp; Bus Analysis A</td>
+<td>Tutorial</td>
+<td>T6</td>
+<td>12:00 PM</td>
+<td>01:20 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>343</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T20</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>211</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>ACCT1101</td>
+<td>Account for Decis Making</td>
+<td>Tutorial</td>
+<td>T26</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Chamberlain Building</td>
+<td>35</td>
+<td>210</td>
+<td>26/07/2010 - 30/10/2010</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+</table></body></html>

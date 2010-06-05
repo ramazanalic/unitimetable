@@ -1,0 +1,985 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000-2005 PeopleSoft, Inc.  All Rights Reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Course</th><th>Course Title</th><th>Class Type</th><th>Class</th><th>Start</th><th>End</th><th>Clash</th><th>Building Name</th><th>Building Number</th><th>Room</th><th>Start/End Date (DD/MM/YYYY)</th><th>Not taught on these dates (DD/MM/YYYY)</th><th>Signon Avail</th><th>Student Signon</th></tr>
+<tr>
+<td>=&quot;Monday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T1&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;302&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T2&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;303&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T3&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;304&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Lecture</td>
+<td>=&quot;L1&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Steele Building&quot;</td>
+<td>=&quot;03&quot;</td>
+<td>=&quot;206&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;ERTH1001&quot;</td>
+<td>=&quot;Elements of Earth Sciences&quot;</td>
+<td>Lecture</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Steele Building&quot;</td>
+<td>=&quot;03&quot;</td>
+<td>=&quot;232&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T4&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;302&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T5&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;303&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T6&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;304&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T7&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;305&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T8&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;302&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T9&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;303&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T10&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;304&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T11&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;305&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;GEOG1000&quot;</td>
+<td>=&quot;Human Settlements&quot;</td>
+<td>Lecture</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Forgan Smith Building&quot;</td>
+<td>=&quot;01&quot;</td>
+<td>=&quot;E109&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T12&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;2:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;302&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T13&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;2:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;303&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T14&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;2:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;304&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T15&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;2:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;305&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T16&quot;</td>
+<td>=&quot;3:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;302&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T17&quot;</td>
+<td>=&quot;3:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;303&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T18&quot;</td>
+<td>=&quot;3:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;304&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;GEOG1000&quot;</td>
+<td>=&quot;Human Settlements&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T1&quot;</td>
+<td>=&quot;4:00 PM&quot;</td>
+<td>=&quot;5:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chamberlain Building&quot;</td>
+<td>=&quot;35&quot;</td>
+<td>=&quot;414A&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Lecture</td>
+<td>=&quot;L2&quot;</td>
+<td>=&quot;4:00 PM&quot;</td>
+<td>=&quot;5:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Steele Building&quot;</td>
+<td>=&quot;03&quot;</td>
+<td>=&quot;206&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T19&quot;</td>
+<td>=&quot;6:00 PM&quot;</td>
+<td>=&quot;6:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;302&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T20&quot;</td>
+<td>=&quot;6:00 PM&quot;</td>
+<td>=&quot;6:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;303&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;Tuesday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;GEOG1000&quot;</td>
+<td>=&quot;Human Settlements&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T2&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chamberlain Building&quot;</td>
+<td>=&quot;35&quot;</td>
+<td>=&quot;414A&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T21&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;302&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T22&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;303&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T23&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;304&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T24&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;305&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;ERTH1001&quot;</td>
+<td>=&quot;Elements of Earth Sciences&quot;</td>
+<td>Lecture</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Steele Building&quot;</td>
+<td>=&quot;03&quot;</td>
+<td>=&quot;232&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;GEOG1000&quot;</td>
+<td>=&quot;Human Settlements&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T3&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chamberlain Building&quot;</td>
+<td>=&quot;35&quot;</td>
+<td>=&quot;414A&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Lecture</td>
+<td>=&quot;L3&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Steele Building&quot;</td>
+<td>=&quot;03&quot;</td>
+<td>=&quot;206&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T25&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;302&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T26&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;303&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T27&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;304&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T28&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;305&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T29&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;302&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T30&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;303&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T31&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;304&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T32&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;305&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;GEOG1000&quot;</td>
+<td>=&quot;Human Settlements&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T4&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chamberlain Building&quot;</td>
+<td>=&quot;35&quot;</td>
+<td>=&quot;414A&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T33&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;2:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;305&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;Wednesday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;GEOG1000&quot;</td>
+<td>=&quot;Human Settlements&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T5&quot;</td>
+<td>=&quot;08:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chamberlain Building&quot;</td>
+<td>=&quot;35&quot;</td>
+<td>=&quot;414A&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T34&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;304&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T35&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;09:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;305&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;GEOG1000&quot;</td>
+<td>=&quot;Human Settlements&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T6&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chamberlain Building&quot;</td>
+<td>=&quot;35&quot;</td>
+<td>=&quot;414A&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T36&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;304&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T37&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;305&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T38&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;304&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;PSYC1030&quot;</td>
+<td>=&quot;Intro to Psych:Dev, Soc &amp; Clin&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T39&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;McElwain Building&quot;</td>
+<td>=&quot;24A&quot;</td>
+<td>=&quot;305&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;GEOM1000&quot;</td>
+<td>=&quot;Geog Inform &amp; Analysis&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T1&quot;</td>
+<td>=&quot;1:00 PM&quot;</td>
+<td>=&quot;1:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Chamberlain Building&quot;</td>
+<td>=&quot;35&quot;</td>
+<td>=&quot;430&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;GEOM1000&quot;</td>
+<td>=&quot;Geog Inform &amp; Analysis&quot;</td>
+<td>Lecture</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Social Sciences Building&quot;</td>
+<td>=&quot;24&quot;</td>
+<td>=&quot;S304&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;GEOM1000&quot;</td>
+<td>=&quot;Geog Inform &amp; Analysis&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T2&quot;</td>
+<td>=&quot;4:00 PM&quot;</td>
+<td>=&quot;4:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Chamberlain Building&quot;</td>
+<td>=&quot;35&quot;</td>
+<td>=&quot;430&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;Thursday&quot;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>=&quot;GEOG1000&quot;</td>
+<td>=&quot;Human Settlements&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T7&quot;</td>
+<td>=&quot;09:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chamberlain Building&quot;</td>
+<td>=&quot;35&quot;</td>
+<td>=&quot;414A&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;ERTH1001&quot;</td>
+<td>=&quot;Elements of Earth Sciences&quot;</td>
+<td>Lecture</td>
+<td>=&quot;L&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Steele Building&quot;</td>
+<td>=&quot;03&quot;</td>
+<td>=&quot;232&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;GEOM1000&quot;</td>
+<td>=&quot;Geog Inform &amp; Analysis&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T3&quot;</td>
+<td>=&quot;10:00 AM&quot;</td>
+<td>=&quot;10:50 AM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chamberlain Building&quot;</td>
+<td>=&quot;35&quot;</td>
+<td>=&quot;430&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;GEOM1000&quot;</td>
+<td>=&quot;Geog Inform &amp; Analysis&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T4&quot;</td>
+<td>=&quot;11:00 AM&quot;</td>
+<td>=&quot;11:50 AM&quot;</td>
+<td></td>
+<td>=&quot;Chamberlain Building&quot;</td>
+<td>=&quot;35&quot;</td>
+<td>=&quot;430&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;GEOM1000&quot;</td>
+<td>=&quot;Geog Inform &amp; Analysis&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T5&quot;</td>
+<td>=&quot;12:00 PM&quot;</td>
+<td>=&quot;12:50 PM&quot;</td>
+<td></td>
+<td>=&quot;Chamberlain Building&quot;</td>
+<td>=&quot;35&quot;</td>
+<td>=&quot;430&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;ERTH1001&quot;</td>
+<td>=&quot;Elements of Earth Sciences&quot;</td>
+<td>Practical</td>
+<td>=&quot;P&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;3:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Steele Building&quot;</td>
+<td>=&quot;03&quot;</td>
+<td>=&quot;232&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td>=&quot; 26/07/2007&quot;</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<tr>
+<td>=&quot;GEOM1000&quot;</td>
+<td>=&quot;Geog Inform &amp; Analysis&quot;</td>
+<td>Tutorial</td>
+<td>=&quot;T6&quot;</td>
+<td>=&quot;2:00 PM&quot;</td>
+<td>=&quot;2:50 PM&quot;</td>
+<td>=&quot;CLASH&quot;</td>
+<td>=&quot;Chamberlain Building&quot;</td>
+<td>=&quot;35&quot;</td>
+<td>=&quot;430&quot;</td>
+<td>=&quot;23/07/2007 - 27/10/2007&quot;</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+</table></body></html>
