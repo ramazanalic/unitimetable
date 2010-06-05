@@ -211,7 +211,7 @@ namespace UniTimetable
                                         @"</tr>",                   // remove close row tags (this will make sense for the cleanups)
                                         @"<table.*?>",              // table opening tag
                                         @"<body.*?>",               // body open tag
-                                        @"</body></html>"           // end page tags (these are invalid anyway as the tags are never opened)
+                                        @"</body></html>"           // end page tags
                                     };
             // run the replacements
             foreach (string replace_regex in replacements) 
