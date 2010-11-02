@@ -124,16 +124,15 @@
   <data name="newToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAdhJREFUOE+Nk0tL
-        41AYhhV0oe7ceSsuhAojRevUpaO46cb/MLoZXHgBtepGmVnNuFAU3OhKpWJHIqGIIOIi4s4boqK1JRpr
-        Y2vRtJ3anDSXz5NIhmqO0g8eOCE5z3nzkhQCQIE+dru9Zmpmtl1TNUkBrViW1RIkK6UqaKXoOa3OTP72
-        BQIBzngYj7nPWOi4WlrqItEHXzjCn9yE745D3O1ZgOVCFyHu5vQy+LB/cHDucDhcuQJDYgqanM02Lny3
-        l06nIZVKGfzD6Nc8z4MsyxCPxwW3291pJiAJGH1jIpH4TzKZhFgsBjg+sCwLh4dH118aGurMg98kwPEZ
-        MZMxTn2PIAiG9PEpwf7o6ekgCJy2CH/PZCUJRFG0gBCCbDYLGRFd9fYPtBIT8PdRRlFkkLCEhN7Dq6D/
-        A0E0xmiaZhRGQlVVEJF01fdhgjwEGYSCg0PD34gd8HkKhoY9VkGj02nLW+AZIQia8hSIKDgyOtZmfYVX
-        wS6+AYqiENEL1jvwkATNX121j0/Cni74bGRVC41P/LR+SPb6+lr/xuYvivbPrVL0gvcvtbTso1a8a+uL
-        PoqeX6f9s7R/Y3pre+fP965uawf4BynClGMqMFU5VON1TQ6VeF1mdvACPbjzZHCwIq8AAAAASUVORK5C
-        YII=
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAc9JREFUOE+Nk00s
+        A0EYhntwc3PzVw7SSkhDq45IXHpxdhFBIuJAJdriQrg5SSQcCIIQJdusavxEHFbcKBGEarNUdbUatq2m
+        u+1uO2ZWKo2dSid5ktlMvme+fTOfAgCgQKhUqnLHwWGn3bHfbttzdFhtu72rVsK4vLUzNr+0YlGr1RWK
+        rJWpk4oR+sbGKn/g3erzM9fPvtcrj/fl1kV7Pfce7/PNg/v9/OLiTqPR6DMOmaBeq1N6fa9nsVgMRKNR
+        iS8I+mYYBgiCAEKhEGswGNqQJJeAQoXhcPiXSCQCgsEgcLlcgKZp4HRePtXU1lZhBbB9iovHpVv/wrKs
+        JP34DNN9/f2tGIFW6WfeqGQiATiOk8HzPEgmkyDO8Y8DxqEmbAfMW4ASRQEkoAQHyuFHYMwhCASpdDot
+        BYYjlUoBjk88DubsIA9BnOfdwyZzMzYDJk+ByWyRC+q0WmXeAssIRlCfp4Dj3SOjYy3yX/gRnMIDIIoi
+        FhQwysCCE+ga9JUfn+wZEvy3hFTaMz4xKX9I6urqSjiJUwRpn9siyMWNbWJt3UpsbuzY4FCSCzbSPkva
+        HTNHxyfTXd098gzgfBRAiiDFkNIsyuC+PIsSuC/MZPANtNTvZ5eo38gAAAAASUVORK5CYII=
 </value>
   </data>
   <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

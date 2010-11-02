@@ -16,6 +16,7 @@ namespace UniTimetable
         Importer[] ImporterList_ = new Importer[] {
             new UQSiNetImporter(),
             new UNSWHtmlImporter(),
+            new UWSHTMLImporter(),
             new QUTImporter()
         };
 
@@ -57,6 +58,7 @@ namespace UniTimetable
             txtFile1.Text = "";
             txtFile2.Text = "";
             txtFile3.Text = "";
+            txtFile4.Text = "";
         }
 
         #region Wizard Control Flow Buttons
@@ -97,6 +99,7 @@ namespace UniTimetable
                 Importer_.File1Dialog.FileName = "";
                 Importer_.File2Dialog.FileName = "";
                 Importer_.File3Dialog.FileName = "";
+                Importer_.File4Dialog.FileName = "";
 
                 // bring up panel 2 (file import) information
                 // file 1
@@ -140,6 +143,20 @@ namespace UniTimetable
                     lblFile3.Visible = false;
                     btnBrowse3.Visible = false;
                     txtFile3.Visible = false;
+                }
+                // file 4
+                if (Importer_.File4Description != null)
+                {
+                    lblFile4.Text = Importer_.File4Description;
+                    lblFile4.Visible = true;
+                    btnBrowse4.Visible = true;
+                    txtFile4.Visible = true;
+                }
+                else
+                {
+                    lblFile4.Visible = false;
+                    btnBrowse4.Visible = false;
+                    txtFile4.Visible = false;
                 }
                 // file instructions
                 if (Importer_.FileInstructions != null)
@@ -341,6 +358,14 @@ namespace UniTimetable
             if (Importer_.File3Dialog.ShowDialog() == DialogResult.OK)
             {
                 txtFile3.Text = Importer_.File3Dialog.FileName;
+            }
+        }
+
+        private void btnBrowse4_Click(object sender, EventArgs e)
+        {
+            if (Importer_.File4Dialog.ShowDialog() == DialogResult.OK)
+            {
+                txtFile4.Text = Importer_.File4Dialog.FileName;
             }
         }
 

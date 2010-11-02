@@ -39,6 +39,9 @@ namespace UniTimetable
             this.listBoxFormats = new System.Windows.Forms.ListBox();
             this.lblTitle1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.txtFile4 = new System.Windows.Forms.TextBox();
+            this.lblFile4 = new System.Windows.Forms.Label();
+            this.btnBrowse4 = new System.Windows.Forms.Button();
             this.txtFileInstructions = new System.Windows.Forms.TextBox();
             this.txtFile3 = new System.Windows.Forms.TextBox();
             this.txtFile2 = new System.Windows.Forms.TextBox();
@@ -178,6 +181,9 @@ namespace UniTimetable
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.txtFile4);
+            this.panel2.Controls.Add(this.lblFile4);
+            this.panel2.Controls.Add(this.btnBrowse4);
             this.panel2.Controls.Add(this.txtFileInstructions);
             this.panel2.Controls.Add(this.txtFile3);
             this.panel2.Controls.Add(this.txtFile2);
@@ -194,16 +200,44 @@ namespace UniTimetable
             this.panel2.Size = new System.Drawing.Size(540, 397);
             this.panel2.TabIndex = 4;
             // 
+            // txtFile4
+            // 
+            this.txtFile4.Location = new System.Drawing.Point(12, 189);
+            this.txtFile4.Name = "txtFile4";
+            this.txtFile4.ReadOnly = true;
+            this.txtFile4.Size = new System.Drawing.Size(435, 20);
+            this.txtFile4.TabIndex = 5;
+            // 
+            // lblFile4
+            // 
+            this.lblFile4.AutoSize = true;
+            this.lblFile4.Location = new System.Drawing.Point(9, 173);
+            this.lblFile4.Name = "lblFile4";
+            this.lblFile4.Size = new System.Drawing.Size(88, 13);
+            this.lblFile4.TabIndex = 4;
+            this.lblFile4.Text = "File 4 Description";
+            // 
+            // btnBrowse4
+            // 
+            this.btnBrowse4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBrowse4.Location = new System.Drawing.Point(453, 188);
+            this.btnBrowse4.Name = "btnBrowse4";
+            this.btnBrowse4.Size = new System.Drawing.Size(75, 22);
+            this.btnBrowse4.TabIndex = 3;
+            this.btnBrowse4.Text = "Browse";
+            this.btnBrowse4.UseVisualStyleBackColor = true;
+            this.btnBrowse4.Click += new System.EventHandler(this.btnBrowse4_Click);
+            // 
             // txtFileInstructions
             // 
             this.txtFileInstructions.AcceptsReturn = true;
             this.txtFileInstructions.AcceptsTab = true;
-            this.txtFileInstructions.Location = new System.Drawing.Point(12, 182);
+            this.txtFileInstructions.Location = new System.Drawing.Point(12, 217);
             this.txtFileInstructions.Multiline = true;
             this.txtFileInstructions.Name = "txtFileInstructions";
             this.txtFileInstructions.ReadOnly = true;
             this.txtFileInstructions.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtFileInstructions.Size = new System.Drawing.Size(516, 203);
+            this.txtFileInstructions.Size = new System.Drawing.Size(516, 168);
             this.txtFileInstructions.TabIndex = 2;
             // 
             // txtFile3
@@ -331,6 +365,7 @@ namespace UniTimetable
             this.timetableControl1.Name = "timetableControl1";
             this.timetableControl1.ShowAll = true;
             this.timetableControl1.ShowDays = false;
+            this.timetableControl1.ShowDragGhost = true;
             this.timetableControl1.ShowGrayArea = false;
             this.timetableControl1.ShowLocation = false;
             this.timetableControl1.ShowText = false;
@@ -338,6 +373,7 @@ namespace UniTimetable
             this.timetableControl1.ShowWeekend = true;
             this.timetableControl1.Size = new System.Drawing.Size(220, 155);
             this.timetableControl1.TabIndex = 3;
+            this.timetableControl1.Timetable = null;
             // 
             // txtTreeDetails
             // 
@@ -591,5 +627,8 @@ namespace UniTimetable
         private System.Windows.Forms.TextBox txtFileInstructions;
         private EtchedLine etchedLine2;
         private TimetableControl timetableControl1;
+        private System.Windows.Forms.TextBox txtFile4;
+        private System.Windows.Forms.Label lblFile4;
+        private System.Windows.Forms.Button btnBrowse4;
     }
 }
