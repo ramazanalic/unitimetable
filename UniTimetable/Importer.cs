@@ -22,11 +22,13 @@ namespace UniTimetable
         protected string File1Description_ = null;
         protected string File2Description_ = null;
         protected string File3Description_ = null;
+        protected string File4Description_ = null;
         protected string FileInstructions_ = null;
 
         protected OpenFileDialog File1Dialog_ = null;
         protected OpenFileDialog File2Dialog_ = null;
         protected OpenFileDialog File3Dialog_ = null;
+        protected OpenFileDialog File4Dialog_ = null;
 
         protected Image Logo_ = Properties.Resources.Unknown;
 
@@ -42,11 +44,13 @@ namespace UniTimetable
         public string File1Description { get { return File1Description_; } }
         public string File2Description { get { return File2Description_; } }
         public string File3Description { get { return File3Description_; } }
+        public string File4Description { get { return File4Description_; } }
         public string FileInstructions { get { return FileInstructions_; } }
 
         public OpenFileDialog File1Dialog { get { return File1Dialog_; } }
         public OpenFileDialog File2Dialog { get { return File2Dialog_; } }
         public OpenFileDialog File3Dialog { get { return File3Dialog_; } }
+        public OpenFileDialog File4Dialog { get { return File4Dialog_; } }
 
         public Image Logo { get { return Logo_; } }
 
@@ -57,6 +61,7 @@ namespace UniTimetable
             File1Dialog_ = DefaultFileDialog;
             File2Dialog_ = DefaultFileDialog;
             File3Dialog_ = DefaultFileDialog;
+            File4Dialog_ = DefaultFileDialog;
         }
 
         private OpenFileDialog DefaultFileDialog
@@ -85,6 +90,7 @@ namespace UniTimetable
             // try and parse files
             Timetable t = Parse();
             // if parsing failed
+
             if (t == null || !t.HasData())
             {
                 return null;
@@ -689,4 +695,326 @@ namespace UniTimetable
             return new Timetable();
         }
     }
+
+    class UWSHTMLImporter : Importer
+    {
+        public UWSHTMLImporter()
+            : base()
+        {
+            FormatName_ = "University of Western Sydney HTML File";
+            University_ = "University of Western Sydney";
+            CreatedBy_ = "Joshua Henderson";
+            LastUpdated_ = "November 2010";
+
+            /* Clarification: There is a lot of repeated code here.
+             * I would load poitners to each type in an array (for example, File1Description, File2Description)
+             * and use a loop looping through the array to assign all the strings to everything, but unfortuantly
+             * 1. C# doesn't support pointers to the extent C++ does :(     (can't access pointers of strings),
+             * 2. I'd need to declare as public unsafe, which doesn't sound safe :P
+             * so I figured I'd just leave the repeated code in as it is the "safest" way of getting things done.*/
+
+            File1Description_ = "Subject 1 (*.htm, *.html)";
+            File1Dialog_.Title = "Import UWS HTML File";
+            File1Dialog_.Filter = "UWS HTML File (*.htm, *.html)|*.htm;*.html";
+
+            File2Description_ = "Subject 2 (*.htm, *.html)";
+            File2Dialog_.Title = "Import UWS HTML File";
+            File2Dialog_.Filter = "UWS HTML File (*.htm, *.html)|*.htm;*.html";
+
+            File3Description_ = "Subject 3 (*.htm, *.html)";
+            File3Dialog_.Title = "Import UWS HTML File";
+            File3Dialog_.Filter = "UWS HTML File (*.htm, *.html)|*.htm;*.html";
+
+            File4Description_ = "Subject 4 (*.htm, *.html)";
+            File4Dialog_.Title = "Import UWS HTML File";
+            File4Dialog_.Filter = "UWS HTML File (*.htm, *.html)|*.htm;*.html";
+
+            Logo_ = Properties.Resources.UWS;
+            FileInstructions_  = "Download the Subject timetable page as a HTML file." +
+                                 "Do this from your browser. Select the downloaded file" +
+                                 "using the browse function. You can add up to 4 subjects. " +
+                                 "If you have less than 4 subjects, simply don't select a file.";
+        }
+
+        protected override Timetable Parse()
+        {
+            Timetable timetable = new Timetable();
+
+            // Process first subject. This is compulsory
+
+            // get file name
+            string fileName = File1Dialog_.FileName;
+            // if it doesn't end with .xls
+            string fileNameLower = fileName.ToLower();
+            if (!(fileNameLower.EndsWith(".htm") || fileNameLower.EndsWith(".html")))
+            {
+                // pop up an error
+                MessageBox.Show("Please select a HTML file.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                // and return null - failed
+                return null;
+            }
+
+            ParseOptional(timetable, fileName);
+
+            // Process second subject. This is optional
+            fileName = File2Dialog_.FileName;
+            if (fileName != "")
+            {
+                fileNameLower = fileName.ToLower();
+                if (!(fileNameLower.EndsWith(".htm") || fileNameLower.EndsWith(".html")))
+                {
+                    // pop up an error
+                    MessageBox.Show("Please choose a proper HTML file for Subject 2.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    // and return null - failed
+                    return null;
+                }
+
+                ParseOptional(timetable, fileName);
+            }
+
+            // Process third subject. This is optional
+            fileName = File3Dialog_.FileName;
+            if (fileName != "")
+            {
+                fileNameLower = fileName.ToLower();
+                if (!(fileNameLower.EndsWith(".htm") || fileNameLower.EndsWith(".html")))
+                {
+                    // pop up an error
+                    MessageBox.Show("Please choose a proper HTML file for Subject 3.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    // and return null - failed
+                    return null;
+                }
+
+                ParseOptional(timetable, fileName);
+            }
+
+            // Process fourth subject. This is optional
+            fileName = File4Dialog_.FileName;
+            if (fileName != "")
+            {
+                fileNameLower = fileName.ToLower();
+                if (!(fileNameLower.EndsWith(".htm") || fileNameLower.EndsWith(".html")))
+                {
+                    // pop up an error
+                    MessageBox.Show("Please choose a proper HTML file for Subject 4.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    // and return null - failed
+                    return null;
+                }
+
+                ParseOptional(timetable, fileName);
+            }
+
+
+            return timetable;
+        }
+
+        private void ParseOptional(Timetable timetable, string fileName)
+        {
+            StreamReader inputStream = new StreamReader(fileName);
+            string line;
+            int rowLine = 0;
+            int streamNumber = 0;
+            bool current = false;
+
+            bool used = false;
+
+            Regex pattern;
+
+            string subjectName = "";
+            string typeName = "";
+            string day = "";
+
+            string start = "";
+            string end = "";
+            string location = "";
+
+            Subject subject;
+            Type type;
+            Session session;
+            Stream stream;
+
+            bool newType = false;
+
+            // Extract subject name first
+            while ((line = inputStream.ReadLine()) != null && !line.Contains("<hr>")) ;
+            while ((line = inputStream.ReadLine()) != null && !line.Contains("<b>")) ;
+            while ((line = inputStream.ReadLine()) != null && !line.Contains("<b>")) ;
+
+            pattern = new Regex("<b>(.*?)</b>");
+            subjectName = pattern.Match(line).Groups[1].Value;
+
+            Console.WriteLine("Subject: " + subjectName + "\n\n");
+
+            // Create subject here
+            subject = new Subject(subjectName);
+            timetable.SubjectList.Add(subject);
+
+            // Create a dummy type
+            type = new Type("", "", subject);
+
+
+            // Skip over all the junk that we don't need. Skip straight to <table
+            while ((line = inputStream.ReadLine()) != null && !line.Contains("<table")) ;
+
+            // Skip over the first <tr>
+            while ((line = inputStream.ReadLine()) != null && !line.Contains("</tr>")) ;
+
+            // Gather the useful information
+            while ((line = inputStream.ReadLine()) != null)
+            {
+                if (line.Contains("<tr>"))
+                {
+                    used = false;
+                    current = true;
+                    rowLine = 0;
+                }
+
+                if (line.Contains("</tr>"))
+                {
+                    if (typeName != "")
+                    {
+                        // Extract type, day, start, end
+                        pattern = new Regex("<td>(.*?)(&nbsp;|<\td>)");
+
+                        typeName = pattern.Match(typeName).Groups[1].Value;
+                        day = pattern.Match(day).Groups[1].Value;
+                        start = pattern.Match(start).Groups[1].Value;
+                        end = pattern.Match(end).Groups[1].Value;
+
+                        // Extract location
+                        pattern = new Regex("<td width=\"300\">(.*?)(&nbsp;|<\td>)");
+
+                        location = pattern.Match(location).Groups[1].Value;
+
+                        // Create New Type if needed
+                        if (newType)
+                        {
+                            Console.WriteLine("Creating new Type: " + typeName + "\n");
+                            streamNumber = 0;
+
+                            // Create type
+                            type = new Type(typeName, typeName, subject);
+                            type.Required = true;
+                            timetable.TypeList.Add(type);
+
+                            // Link the subject and type
+                            subject.Types.Add(type);
+                            type.Subject = subject;
+
+                            newType = false;
+                        }
+
+                        // Parse all the information from the variables
+                        //type, day, start, end, location;
+                        Console.WriteLine("Type: " + typeName + " " + streamNumber);
+                        Console.WriteLine("Day: " + day);
+                        Console.WriteLine("Start: " + start);
+                        Console.WriteLine("End: " + end);
+                        Console.WriteLine("Location: " + location + "\n");
+
+                        // Create new session
+                        session = new Session();
+
+                        // Add the day to the session
+                        switch (day)
+                        {
+                            case "Sun":
+                                session.Day = 0;
+                                break;
+                            case "Mon":
+                                session.Day = 1;
+                                break;
+                            case "Tue":
+                                session.Day = 2;
+                                break;
+                            case "Wed":
+                                session.Day = 3;
+                                break;
+                            case "Thu":
+                                session.Day = 4;
+                                break;
+                            case "Fri":
+                                session.Day = 5;
+                                break;
+                            case "Sat":
+                                session.Day = 6;
+                                break;
+                            default:
+                                session.Day = -1;
+                                break;
+                        }
+
+                        // Start
+                        pattern = new Regex("(.*)(:)(.*)");
+                        session.StartHour = Convert.ToInt32(pattern.Match(start).Groups[1].Value);
+                        session.StartMinute = Convert.ToInt32(pattern.Match(start).Groups[3].Value);
+
+                        // End
+                        pattern = new Regex("(.*)(:)(.*)");
+                        session.EndHour = Convert.ToInt32(pattern.Match(end).Groups[1].Value);
+                        session.EndMinute = Convert.ToInt32(pattern.Match(end).Groups[3].Value);
+                        
+                        // Create new stream
+                        streamNumber++;
+                        stream = new Stream(streamNumber);
+                        timetable.StreamList.Add(stream);
+
+                        // Link the stream and type
+                        type.Streams.Add(stream);
+                        stream.Type = type;
+
+                        // Link the session and stream
+                        timetable.ClassList.Add(session);
+                        stream.Classes.Add(session);
+                        session.Stream = stream;
+                    }
+                    else
+                    {
+                        newType = true;
+                    }
+
+                    used = false;
+                    current = false;
+
+                }
+
+                if (current)
+                {
+                    used = true;
+                    switch (rowLine)
+                    {
+                        case 0:
+                            // IGNORE
+                            break;
+                        case 1:
+                            // IGNORE
+                            break;
+                        case 2:
+                            typeName = line;
+                            break;
+                        case 3:
+                            day = line;
+                            break;
+                        case 4:
+                            start = line;
+                            break;
+                        case 5:
+                            end = line;
+                            break;
+                        case 6:
+                            // IGNORE
+                            break;
+                        case 7:
+                            location = line;
+                            break;
+                    }
+
+                    rowLine++;
+                }
+            }
+
+            inputStream.Close();
+        }
+    }
+
 }
