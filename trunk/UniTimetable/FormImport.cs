@@ -22,6 +22,8 @@ namespace UniTimetable
 
         Importer Importer_ = null;
 
+        List<TimetableSession> sessions = null;
+
         public FormImport()
         {
             InitializeComponent();
@@ -46,6 +48,7 @@ namespace UniTimetable
             CurrentPage_ = 1;
             // bring up panel 1
             panel1.Visible = true;
+            panelFetchWeb.Visible = false;
             panel2.Visible = false;
             panel3.Visible = false;
             panel4.Visible = false;
@@ -168,6 +171,10 @@ namespace UniTimetable
                     txtFileInstructions.Text = "No instructions provided for " + Importer_.FormatName + ".";
                 }
 
+                // It it's a univeristy that supports web import, show panelFetchWeb.
+                if (Importer_.SupportsWeb == true)
+                    panelFetchWeb.Visible = true;
+
                 // bring up panel 2
                 panel1.Visible = false;
                 panel2.Visible = true;
@@ -200,6 +207,7 @@ namespace UniTimetable
                 timetableControl1.Clear();
 
                 // bring up panel 3
+                panelFetchWeb.Visible = false;
                 panel2.Visible = false;
                 panel3.Visible = true;
             }
@@ -270,6 +278,7 @@ namespace UniTimetable
             if (CurrentPage_ == 2)
             {
                 // bring up panel 1
+                panelFetchWeb.Visible = false;
                 panel2.Visible = false;
                 panel1.Visible = true;
                 // disable back button
@@ -278,6 +287,8 @@ namespace UniTimetable
             else if (CurrentPage_ == 3)
             {
                 // bring up panel 2
+                if (Importer_.SupportsWeb == true)
+                    panelFetchWeb.Visible = true;
                 panel3.Visible = false;
                 panel2.Visible = true;
             }
@@ -600,6 +611,121 @@ namespace UniTimetable
         }
 
         #endregion
+
+        private void btnClassicImporter_Click(object sender, EventArgs e)
+        {
+            panelFetchWeb.Visible = false;
+        }
+
+        private void btnFetchUnit_Click(object sender, EventArgs e)
+        {
+            listTimetable.Items.Clear();
+            sessions = Importer_.FetchUnits(txtUnitCode.Text, textUnitName);
+
+            foreach (TimetableSession session in sessions)
+            {
+                ListViewItem sessionToAdd = new ListViewItem(session.getTimeframe);
+                sessionToAdd.SubItems.Add(session.getCampus);
+                sessionToAdd.SubItems.Add(session.getType);
+                listTimetable.Items.Add(sessionToAdd);
+            }
+        }
+
+        private void btnUseSelected_Click(object sender, EventArgs e)
+        {
+            int i;
+            for (i = 0; i < listTimetable.Items.Count; i++)
+                if (listTimetable.Items[i].Selected == true)
+                {
+                    break;
+                }
+
+            string description = textUnitName.Text;
+            string url = sessions[i].getURL;
+
+            // Check to see if field 1 is taken.
+            if (Importer_.Unit1URL == null)
+            {
+                txtUnit1.Text = description;
+                Importer_.Unit1Description = description;
+                Importer_.Unit1URL = url;
+            }
+            else if (Importer_.Unit2URL == null)
+            {
+                txtUnit2.Text = description;
+                Importer_.Unit2Description = description;
+                Importer_.Unit2URL = url;
+            }
+            else if (Importer_.Unit3URL == null)
+            {
+                txtUnit3.Text = description;
+                Importer_.Unit3Description = description;
+                Importer_.Unit3URL = url;
+            }
+            else if (Importer_.Unit4URL == null)
+            {
+                txtUnit4.Text = description;
+                Importer_.Unit4Description = description;
+                Importer_.Unit4URL = url;
+            }
+            else
+            {
+                MessageBox.Show("This function doesn't support more than 4 units");
+            }
+
+        }
+
+        private void btn1Delete_Click(object sender, EventArgs e)
+        {
+            txtUnit1.Text = txtUnit2.Text;
+            Importer_.Unit1Description = Importer_.Unit2Description;
+            Importer_.Unit1URL = Importer_.Unit2URL;
+
+            txtUnit2.Text = txtUnit3.Text;
+            Importer_.Unit2Description = Importer_.Unit3Description;
+            Importer_.Unit2URL = Importer_.Unit3URL;
+
+            txtUnit3.Text = txtUnit4.Text;
+            Importer_.Unit3Description = Importer_.Unit4Description;
+            Importer_.Unit3URL = Importer_.Unit4URL;
+
+            txtUnit4.Text = null;
+            Importer_.Unit4Description = null;
+            Importer_.Unit4URL = null;
+        }
+
+        private void btn2Delete_Click(object sender, EventArgs e)
+        {
+            txtUnit2.Text = txtUnit3.Text;
+            Importer_.Unit2Description = Importer_.Unit3Description;
+            Importer_.Unit2URL = Importer_.Unit3URL;
+
+            txtUnit3.Text = txtUnit4.Text;
+            Importer_.Unit3Description = Importer_.Unit4Description;
+            Importer_.Unit3URL = Importer_.Unit4URL;
+
+            txtUnit4.Text = null;
+            Importer_.Unit4Description = null;
+            Importer_.Unit4URL = null;
+        }
+
+        private void btn3Delete_Click(object sender, EventArgs e)
+        {
+            txtUnit3.Text = txtUnit4.Text;
+            Importer_.Unit3Description = Importer_.Unit4Description;
+            Importer_.Unit3URL = Importer_.Unit4URL;
+
+            txtUnit4.Text = null;
+            Importer_.Unit4Description = null;
+            Importer_.Unit4URL = null;
+        }
+
+        private void btn4Delete_Click(object sender, EventArgs e)
+        {
+            txtUnit4.Text = null;
+            Importer_.Unit4Description = null;
+            Importer_.Unit4URL = null;
+        }
 
     }
 }
