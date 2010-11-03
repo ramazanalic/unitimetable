@@ -39,6 +39,25 @@ namespace UniTimetable
             this.listBoxFormats = new System.Windows.Forms.ListBox();
             this.lblTitle1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panelFetchWeb = new System.Windows.Forms.Panel();
+            this.btn4Delete = new System.Windows.Forms.Button();
+            this.txtUnit4 = new System.Windows.Forms.TextBox();
+            this.btn3Delete = new System.Windows.Forms.Button();
+            this.txtUnit3 = new System.Windows.Forms.TextBox();
+            this.btn2Delete = new System.Windows.Forms.Button();
+            this.txtUnit2 = new System.Windows.Forms.TextBox();
+            this.btn1Delete = new System.Windows.Forms.Button();
+            this.txtUnit1 = new System.Windows.Forms.TextBox();
+            this.listTimetable = new System.Windows.Forms.ListView();
+            this.timeFrame = new System.Windows.Forms.ColumnHeader();
+            this.campus = new System.Windows.Forms.ColumnHeader();
+            this.type = new System.Windows.Forms.ColumnHeader();
+            this.btnClassicImporter = new System.Windows.Forms.Button();
+            this.btnUseSelected = new System.Windows.Forms.Button();
+            this.txtUnitCode = new System.Windows.Forms.TextBox();
+            this.textUnitName = new System.Windows.Forms.TextBox();
+            this.labelUnitCode = new System.Windows.Forms.Label();
+            this.btnFetchUnit = new System.Windows.Forms.Button();
             this.txtFile4 = new System.Windows.Forms.TextBox();
             this.lblFile4 = new System.Windows.Forms.Label();
             this.btnBrowse4 = new System.Windows.Forms.Button();
@@ -76,6 +95,7 @@ namespace UniTimetable
             this.panelBottom.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panelFetchWeb.SuspendLayout();
             this.panel3.SuspendLayout();
             this.boxStreamDetails.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -181,6 +201,7 @@ namespace UniTimetable
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.panelFetchWeb);
             this.panel2.Controls.Add(this.txtFile4);
             this.panel2.Controls.Add(this.lblFile4);
             this.panel2.Controls.Add(this.btnBrowse4);
@@ -199,6 +220,184 @@ namespace UniTimetable
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(540, 397);
             this.panel2.TabIndex = 4;
+            // 
+            // panelFetchWeb
+            // 
+            this.panelFetchWeb.Controls.Add(this.btn4Delete);
+            this.panelFetchWeb.Controls.Add(this.txtUnit4);
+            this.panelFetchWeb.Controls.Add(this.btn3Delete);
+            this.panelFetchWeb.Controls.Add(this.txtUnit3);
+            this.panelFetchWeb.Controls.Add(this.btn2Delete);
+            this.panelFetchWeb.Controls.Add(this.txtUnit2);
+            this.panelFetchWeb.Controls.Add(this.btn1Delete);
+            this.panelFetchWeb.Controls.Add(this.txtUnit1);
+            this.panelFetchWeb.Controls.Add(this.listTimetable);
+            this.panelFetchWeb.Controls.Add(this.btnClassicImporter);
+            this.panelFetchWeb.Controls.Add(this.btnUseSelected);
+            this.panelFetchWeb.Controls.Add(this.txtUnitCode);
+            this.panelFetchWeb.Controls.Add(this.textUnitName);
+            this.panelFetchWeb.Controls.Add(this.labelUnitCode);
+            this.panelFetchWeb.Controls.Add(this.btnFetchUnit);
+            this.panelFetchWeb.Location = new System.Drawing.Point(12, 42);
+            this.panelFetchWeb.Name = "panelFetchWeb";
+            this.panelFetchWeb.Size = new System.Drawing.Size(516, 355);
+            this.panelFetchWeb.TabIndex = 6;
+            this.panelFetchWeb.Visible = false;
+            // 
+            // btn4Delete
+            // 
+            this.btn4Delete.Location = new System.Drawing.Point(407, 313);
+            this.btn4Delete.Name = "btn4Delete";
+            this.btn4Delete.Size = new System.Drawing.Size(103, 23);
+            this.btn4Delete.TabIndex = 23;
+            this.btn4Delete.Text = "Delete";
+            this.btn4Delete.UseVisualStyleBackColor = true;
+            this.btn4Delete.Click += new System.EventHandler(this.btn4Delete_Click);
+            // 
+            // txtUnit4
+            // 
+            this.txtUnit4.Location = new System.Drawing.Point(4, 315);
+            this.txtUnit4.Name = "txtUnit4";
+            this.txtUnit4.ReadOnly = true;
+            this.txtUnit4.Size = new System.Drawing.Size(399, 20);
+            this.txtUnit4.TabIndex = 22;
+            // 
+            // btn3Delete
+            // 
+            this.btn3Delete.Location = new System.Drawing.Point(407, 287);
+            this.btn3Delete.Name = "btn3Delete";
+            this.btn3Delete.Size = new System.Drawing.Size(103, 23);
+            this.btn3Delete.TabIndex = 21;
+            this.btn3Delete.Text = "Delete";
+            this.btn3Delete.UseVisualStyleBackColor = true;
+            this.btn3Delete.Click += new System.EventHandler(this.btn3Delete_Click);
+            // 
+            // txtUnit3
+            // 
+            this.txtUnit3.Location = new System.Drawing.Point(4, 289);
+            this.txtUnit3.Name = "txtUnit3";
+            this.txtUnit3.ReadOnly = true;
+            this.txtUnit3.Size = new System.Drawing.Size(399, 20);
+            this.txtUnit3.TabIndex = 20;
+            // 
+            // btn2Delete
+            // 
+            this.btn2Delete.Location = new System.Drawing.Point(407, 261);
+            this.btn2Delete.Name = "btn2Delete";
+            this.btn2Delete.Size = new System.Drawing.Size(103, 23);
+            this.btn2Delete.TabIndex = 19;
+            this.btn2Delete.Text = "Delete";
+            this.btn2Delete.UseVisualStyleBackColor = true;
+            this.btn2Delete.Click += new System.EventHandler(this.btn2Delete_Click);
+            // 
+            // txtUnit2
+            // 
+            this.txtUnit2.Location = new System.Drawing.Point(4, 263);
+            this.txtUnit2.Name = "txtUnit2";
+            this.txtUnit2.ReadOnly = true;
+            this.txtUnit2.Size = new System.Drawing.Size(399, 20);
+            this.txtUnit2.TabIndex = 18;
+            // 
+            // btn1Delete
+            // 
+            this.btn1Delete.Location = new System.Drawing.Point(407, 235);
+            this.btn1Delete.Name = "btn1Delete";
+            this.btn1Delete.Size = new System.Drawing.Size(103, 23);
+            this.btn1Delete.TabIndex = 17;
+            this.btn1Delete.Text = "Delete";
+            this.btn1Delete.UseVisualStyleBackColor = true;
+            this.btn1Delete.Click += new System.EventHandler(this.btn1Delete_Click);
+            // 
+            // txtUnit1
+            // 
+            this.txtUnit1.Location = new System.Drawing.Point(4, 237);
+            this.txtUnit1.Name = "txtUnit1";
+            this.txtUnit1.ReadOnly = true;
+            this.txtUnit1.Size = new System.Drawing.Size(399, 20);
+            this.txtUnit1.TabIndex = 13;
+            // 
+            // listTimetable
+            // 
+            this.listTimetable.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.timeFrame,
+            this.campus,
+            this.type});
+            this.listTimetable.FullRowSelect = true;
+            this.listTimetable.Location = new System.Drawing.Point(3, 88);
+            this.listTimetable.Name = "listTimetable";
+            this.listTimetable.Size = new System.Drawing.Size(510, 95);
+            this.listTimetable.TabIndex = 12;
+            this.listTimetable.UseCompatibleStateImageBehavior = false;
+            this.listTimetable.View = System.Windows.Forms.View.Details;
+            // 
+            // timeFrame
+            // 
+            this.timeFrame.Text = "TimeFrame";
+            this.timeFrame.Width = 114;
+            // 
+            // campus
+            // 
+            this.campus.Text = "Campus";
+            this.campus.Width = 114;
+            // 
+            // type
+            // 
+            this.type.Text = "Type";
+            this.type.Width = 114;
+            // 
+            // btnClassicImporter
+            // 
+            this.btnClassicImporter.Location = new System.Drawing.Point(395, 4);
+            this.btnClassicImporter.Name = "btnClassicImporter";
+            this.btnClassicImporter.Size = new System.Drawing.Size(115, 23);
+            this.btnClassicImporter.TabIndex = 0;
+            this.btnClassicImporter.Text = "Use Classic Importer";
+            this.btnClassicImporter.UseVisualStyleBackColor = true;
+            this.btnClassicImporter.Click += new System.EventHandler(this.btnClassicImporter_Click);
+            // 
+            // btnUseSelected
+            // 
+            this.btnUseSelected.Location = new System.Drawing.Point(407, 189);
+            this.btnUseSelected.Name = "btnUseSelected";
+            this.btnUseSelected.Size = new System.Drawing.Size(103, 23);
+            this.btnUseSelected.TabIndex = 11;
+            this.btnUseSelected.Text = "Use Selected";
+            this.btnUseSelected.UseVisualStyleBackColor = true;
+            this.btnUseSelected.Click += new System.EventHandler(this.btnUseSelected_Click);
+            // 
+            // txtUnitCode
+            // 
+            this.txtUnitCode.Location = new System.Drawing.Point(79, 35);
+            this.txtUnitCode.Name = "txtUnitCode";
+            this.txtUnitCode.Size = new System.Drawing.Size(100, 20);
+            this.txtUnitCode.TabIndex = 8;
+            // 
+            // textUnitName
+            // 
+            this.textUnitName.Location = new System.Drawing.Point(3, 62);
+            this.textUnitName.Name = "textUnitName";
+            this.textUnitName.ReadOnly = true;
+            this.textUnitName.Size = new System.Drawing.Size(510, 20);
+            this.textUnitName.TabIndex = 10;
+            // 
+            // labelUnitCode
+            // 
+            this.labelUnitCode.AutoSize = true;
+            this.labelUnitCode.Location = new System.Drawing.Point(16, 38);
+            this.labelUnitCode.Name = "labelUnitCode";
+            this.labelUnitCode.Size = new System.Drawing.Size(57, 13);
+            this.labelUnitCode.TabIndex = 7;
+            this.labelUnitCode.Text = "Unit Code:";
+            // 
+            // btnFetchUnit
+            // 
+            this.btnFetchUnit.Location = new System.Drawing.Point(185, 33);
+            this.btnFetchUnit.Name = "btnFetchUnit";
+            this.btnFetchUnit.Size = new System.Drawing.Size(75, 23);
+            this.btnFetchUnit.TabIndex = 9;
+            this.btnFetchUnit.Text = "Fetch Unit";
+            this.btnFetchUnit.UseVisualStyleBackColor = true;
+            this.btnFetchUnit.Click += new System.EventHandler(this.btnFetchUnit_Click);
             // 
             // txtFile4
             // 
@@ -574,6 +773,8 @@ namespace UniTimetable
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panelFetchWeb.ResumeLayout(false);
+            this.panelFetchWeb.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.boxStreamDetails.ResumeLayout(false);
@@ -630,5 +831,24 @@ namespace UniTimetable
         private System.Windows.Forms.TextBox txtFile4;
         private System.Windows.Forms.Label lblFile4;
         private System.Windows.Forms.Button btnBrowse4;
+        private System.Windows.Forms.Panel panelFetchWeb;
+        private System.Windows.Forms.Button btnClassicImporter;
+        private System.Windows.Forms.ListView listTimetable;
+        private System.Windows.Forms.ColumnHeader timeFrame;
+        private System.Windows.Forms.ColumnHeader campus;
+        private System.Windows.Forms.ColumnHeader type;
+        private System.Windows.Forms.Button btnUseSelected;
+        private System.Windows.Forms.TextBox txtUnitCode;
+        private System.Windows.Forms.TextBox textUnitName;
+        private System.Windows.Forms.Label labelUnitCode;
+        private System.Windows.Forms.Button btnFetchUnit;
+        private System.Windows.Forms.Button btn1Delete;
+        private System.Windows.Forms.TextBox txtUnit1;
+        private System.Windows.Forms.Button btn4Delete;
+        private System.Windows.Forms.TextBox txtUnit4;
+        private System.Windows.Forms.Button btn3Delete;
+        private System.Windows.Forms.TextBox txtUnit3;
+        private System.Windows.Forms.Button btn2Delete;
+        private System.Windows.Forms.TextBox txtUnit2;
     }
 }

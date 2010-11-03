@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Resources;
 using System.Reflection;
 using System.Text.RegularExpressions;
+using System.Net;
 
 namespace UniTimetable
 {
@@ -32,6 +33,16 @@ namespace UniTimetable
 
         protected Image Logo_ = Properties.Resources.Unknown;
 
+        protected bool SupportsWeb_ = false;
+        protected string Unit1Description_ = null;
+        protected string Unit1URL_ = null;
+        protected string Unit2Description_ = null;
+        protected string Unit2URL_ = null;
+        protected string Unit3Description_ = null;
+        protected string Unit3URL_ = null;
+        protected string Unit4Description_ = null;
+        protected string Unit4URL_ = null;
+
         #endregion
 
         #region Property accessors
@@ -53,6 +64,16 @@ namespace UniTimetable
         public OpenFileDialog File4Dialog { get { return File4Dialog_; } }
 
         public Image Logo { get { return Logo_; } }
+
+        public bool SupportsWeb { get { return SupportsWeb_; } }
+        public string Unit1Description { get { return Unit1Description_; } set { Unit1Description_ = value; } }
+        public string Unit1URL { get { return Unit1URL_; } set { Unit1URL_ = value; } }
+        public string Unit2Description { get { return Unit2Description_; } set { Unit2Description_ = value; } }
+        public string Unit2URL { get { return Unit2URL_; } set { Unit2URL_ = value; } }
+        public string Unit3Description { get { return Unit3Description_; } set { Unit3Description_ = value; } }
+        public string Unit3URL { get { return Unit3URL_; } set { Unit3URL_ = value; } }
+        public string Unit4Description { get { return Unit4Description_; } set { Unit4Description_ = value; } }
+        public string Unit4URL { get { return Unit4URL_; } set { Unit4URL_ = value; } }
 
         #endregion
 
@@ -99,6 +120,11 @@ namespace UniTimetable
             SetColors(t);
 
             return t;
+        }
+
+        public virtual List<TimetableSession> FetchUnits(string unitCode, TextBox textUnitName)
+        {
+            throw new Exception("FetchUnits method not implemented!");
         }
 
         private void SetColors(Timetable timetable)
@@ -705,6 +731,7 @@ namespace UniTimetable
             University_ = "University of Western Sydney";
             CreatedBy_ = "Joshua Henderson";
             LastUpdated_ = "November 2010";
+            SupportsWeb_ = true;
 
             /* Clarification: There is a lot of repeated code here.
              * I would load poitners to each type in an array (for example, File1Description, File2Description)
@@ -742,75 +769,214 @@ namespace UniTimetable
 
             // Process first subject. This is compulsory
 
-            // get file name
-            string fileName = File1Dialog_.FileName;
-            // if it doesn't end with .xls
-            string fileNameLower = fileName.ToLower();
-            if (!(fileNameLower.EndsWith(".htm") || fileNameLower.EndsWith(".html")))
+            // Determine whether or not to do web based or local based.
+
+            if (Unit1URL_ != null)
             {
-                // pop up an error
-                MessageBox.Show("Please select a HTML file.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                // and return null - failed
-                return null;
+                ParseOptional(timetable, Unit1URL_);
+
+                if (Unit2URL_ != null)
+                    ParseOptional(timetable, Unit2URL_);
+
+                if (Unit3URL_ != null)
+                    ParseOptional(timetable, Unit3URL_);
+
+                if (Unit4URL_ != null)
+                    ParseOptional(timetable, Unit4URL_);
             }
-
-            ParseOptional(timetable, fileName);
-
-            // Process second subject. This is optional
-            fileName = File2Dialog_.FileName;
-            if (fileName != "")
+            else
             {
-                fileNameLower = fileName.ToLower();
+
+                // get file name
+                string fileName = File1Dialog_.FileName;
+                // if it doesn't end with .xls
+                string fileNameLower = fileName.ToLower();
                 if (!(fileNameLower.EndsWith(".htm") || fileNameLower.EndsWith(".html")))
                 {
                     // pop up an error
-                    MessageBox.Show("Please choose a proper HTML file for Subject 2.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show("Please select a HTML file.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     // and return null - failed
                     return null;
                 }
 
                 ParseOptional(timetable, fileName);
-            }
 
-            // Process third subject. This is optional
-            fileName = File3Dialog_.FileName;
-            if (fileName != "")
-            {
-                fileNameLower = fileName.ToLower();
-                if (!(fileNameLower.EndsWith(".htm") || fileNameLower.EndsWith(".html")))
+                // Process second subject. This is optional
+                fileName = File2Dialog_.FileName;
+                if (fileName != "")
                 {
-                    // pop up an error
-                    MessageBox.Show("Please choose a proper HTML file for Subject 3.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    // and return null - failed
-                    return null;
+                    fileNameLower = fileName.ToLower();
+                    if (!(fileNameLower.EndsWith(".htm") || fileNameLower.EndsWith(".html")))
+                    {
+                        // pop up an error
+                        MessageBox.Show("Please choose a proper HTML file for Subject 2.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        // and return null - failed
+                        return null;
+                    }
+
+                    ParseOptional(timetable, fileName);
                 }
 
-                ParseOptional(timetable, fileName);
-            }
-
-            // Process fourth subject. This is optional
-            fileName = File4Dialog_.FileName;
-            if (fileName != "")
-            {
-                fileNameLower = fileName.ToLower();
-                if (!(fileNameLower.EndsWith(".htm") || fileNameLower.EndsWith(".html")))
+                // Process third subject. This is optional
+                fileName = File3Dialog_.FileName;
+                if (fileName != "")
                 {
-                    // pop up an error
-                    MessageBox.Show("Please choose a proper HTML file for Subject 4.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    // and return null - failed
-                    return null;
+                    fileNameLower = fileName.ToLower();
+                    if (!(fileNameLower.EndsWith(".htm") || fileNameLower.EndsWith(".html")))
+                    {
+                        // pop up an error
+                        MessageBox.Show("Please choose a proper HTML file for Subject 3.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        // and return null - failed
+                        return null;
+                    }
+
+                    ParseOptional(timetable, fileName);
                 }
 
-                ParseOptional(timetable, fileName);
+                // Process fourth subject. This is optional
+                fileName = File4Dialog_.FileName;
+                if (fileName != "")
+                {
+                    fileNameLower = fileName.ToLower();
+                    if (!(fileNameLower.EndsWith(".htm") || fileNameLower.EndsWith(".html")))
+                    {
+                        // pop up an error
+                        MessageBox.Show("Please choose a proper HTML file for Subject 4.", "Import", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        // and return null - failed
+                        return null;
+                    }
+
+                    ParseOptional(timetable, fileName);
+                }
             }
 
 
             return timetable;
         }
 
+        public override List<TimetableSession> FetchUnits(string unitCode, TextBox textUnitName)
+        {
+            // Declare all the variables needed later on
+            List<TimetableSession> sessions = new List<TimetableSession>();
+
+
+            // START: GET FROM WEB
+
+            // Open a connection
+            string Url = "http://handbook.uws.edu.au/hbook/unit.aspx?unit=" + unitCode;
+            HttpWebRequest WebRequestObject = (HttpWebRequest)HttpWebRequest.Create(Url);
+
+            // You can also specify additional header values like 
+            // the user agent or the referer:
+            WebRequestObject.UserAgent = ".NET Framework/2.0";
+            WebRequestObject.Referer = "http://www.example.com/";
+
+            // Request response:
+            WebResponse Response = WebRequestObject.GetResponse();
+
+            // Open data stream:
+            System.IO.Stream WebStream = Response.GetResponseStream();
+
+            // Create reader object:
+            StreamReader Reader = new StreamReader(WebStream);
+
+            // END: GET FROM WEB
+
+
+            // Read the entire stream content:
+            //string PageContent = Reader.ReadToEnd();
+            string line;
+
+            Regex pattern;
+            string subject;
+            string timeframe;
+            string offered;
+            string campus;
+            string type;
+            string url;
+
+
+            while ((line = Reader.ReadLine()) != null && !line.Contains("Teaching Periods")) ;
+
+            pattern = new Regex("</span><p><span class=\"LBN\">(.*?)</span><span class=\"HBN\">");
+            subject = pattern.Match(line).Groups[1].Value;
+
+            textUnitName.Text = subject;
+
+            // Get first subject. This is a special case
+            pattern = new Regex("</th></tr><tr><td class=\"NNN\">(.*?)"
+                + "</td><td class=\"NNN\">(.*?)"
+                + "</td><td class=\"NNN\">(.*?)"
+                + "</td><td class=\"NNN\">(.*?)"
+                + "</td><td class=\"NNN\"><a href=\"(.*?)"
+                + "\" target=\"&#xD;&#xA;         _blank&#xD;&#xA;         \">");
+
+            timeframe = pattern.Match(line).Groups[1].Value;
+            offered = pattern.Match(line).Groups[2].Value;
+            campus = pattern.Match(line).Groups[3].Value;
+            type = pattern.Match(line).Groups[4].Value;
+            url = pattern.Match(line).Groups[5].Value;
+
+            // Fix URL
+            url = Regex.Replace(url, "&#xD;&#xA;| |amp;", "");
+
+            sessions.Add(new TimetableSession(timeframe, offered, campus, type, url));
+
+            while ((line = Reader.ReadLine()) != null)
+            {
+                if (line.Contains("Timetable"))
+                    continue;
+                if (line.Contains("</a></td></tr></table></p><hr /><p>"))
+                    break;
+
+                pattern = new Regex("</a></td></tr><tr><td class=\"NNN\">(.*?)"
+                + "</td><td class=\"NNN\">(.*?)"
+                + "</td><td class=\"NNN\">(.*?)"
+                + "</td><td class=\"NNN\">(.*?)"
+                + "</td><td class=\"NNN\"><a href=\"(.*?)"
+                + "\" target=\"&#xD;&#xA;         _blank&#xD;&#xA;         \">");
+
+                timeframe = pattern.Match(line).Groups[1].Value;
+                offered = pattern.Match(line).Groups[2].Value;
+                campus = pattern.Match(line).Groups[3].Value;
+                type = pattern.Match(line).Groups[4].Value;
+                url = pattern.Match(line).Groups[5].Value;
+
+                // Fix URL
+                url = Regex.Replace(url, "&#xD;&#xA;| |amp;", "");
+
+                sessions.Add(new TimetableSession(timeframe, offered, campus, type, url));
+            }
+
+            // Cleanup
+            Reader.Close();
+            WebStream.Close();
+            Response.Close();
+
+            return sessions;
+        }
+
         private void ParseOptional(Timetable timetable, string fileName)
         {
-            StreamReader inputStream = new StreamReader(fileName);
+            HttpWebRequest WebRequest;
+            WebResponse WebResponse;
+            System.IO.Stream WebStream;
+
+            StreamReader inputStream;
+
+            if (fileName.StartsWith("http"))
+            {
+                WebRequest = (HttpWebRequest)HttpWebRequest.Create(fileName);
+                WebRequest.UserAgent = ".NET Framework/2.0";
+                WebRequest.Referer = "http://www.uws.edu.au/";
+                WebResponse = WebRequest.GetResponse();
+                WebStream = WebResponse.GetResponseStream();
+                inputStream = new StreamReader(WebStream);
+            }
+            else
+            {
+                inputStream = new StreamReader(fileName);
+            }
             string line;
             int rowLine = 0;
             int streamNumber = 0;
