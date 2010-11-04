@@ -184,7 +184,14 @@ namespace UniTimetable
             else if (CurrentPage_ == 2)
             {
                 // try and parse files
-                Timetable_ = Importer_.Import();
+                try
+                {
+                    Timetable_ = Importer_.Import();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: Ensure you are connected to the Internet");
+                }
 
                 // if it failed, alert the user and stay on the current page
                 if (Timetable_ == null)
@@ -619,15 +626,23 @@ namespace UniTimetable
 
         private void btnFetchUnit_Click(object sender, EventArgs e)
         {
-            listTimetable.Items.Clear();
-            sessions = Importer_.FetchUnits(txtUnitCode.Text, textUnitName);
-
-            foreach (TimetableSession session in sessions)
+            try
             {
-                ListViewItem sessionToAdd = new ListViewItem(session.getTimeframe);
-                sessionToAdd.SubItems.Add(session.getCampus);
-                sessionToAdd.SubItems.Add(session.getType);
-                listTimetable.Items.Add(sessionToAdd);
+                listTimetable.Items.Clear();
+                sessions = Importer_.FetchUnits(txtUnitCode.Text, textUnitName);
+
+                foreach (TimetableSession session in sessions)
+                {
+                    ListViewItem sessionToAdd = new ListViewItem(session.getTimeframe);
+                    sessionToAdd.SubItems.Add(session.getCampus);
+                    sessionToAdd.SubItems.Add(session.getType);
+                    listTimetable.Items.Add(sessionToAdd);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+                textUnitName.Text = "";
             }
         }
 
@@ -642,6 +657,13 @@ namespace UniTimetable
 
             string description = textUnitName.Text;
             string url = sessions[i].getURL;
+
+            // Check URL to ensure it's good. If it's bad, an exception will be thrown
+            if (!Importer_.PraseTest(url))
+            {
+                MessageBox.Show("Error with the timetable!");
+                return;
+            }
 
             // Check to see if field 1 is taken.
             if (Importer_.Unit1URL == null)
