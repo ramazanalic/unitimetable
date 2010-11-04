@@ -127,6 +127,11 @@ namespace UniTimetable
             throw new Exception("FetchUnits method not implemented!");
         }
 
+        public virtual bool PraseTest(string fileName)
+        {
+            throw new Exception("ParseTest method not implemented!");
+        }
+
         private void SetColors(Timetable timetable)
         {
             ColorScheme scheme = ColorScheme.Schemes[0];
@@ -917,6 +922,9 @@ namespace UniTimetable
             type = pattern.Match(line).Groups[4].Value;
             url = pattern.Match(line).Groups[5].Value;
 
+            if (campus == "")
+                throw new Exception("Unit Not On Offer");
+
             // Fix URL
             url = Regex.Replace(url, "&#xD;&#xA;| |amp;", "");
 
@@ -954,6 +962,21 @@ namespace UniTimetable
             Response.Close();
 
             return sessions;
+        }
+
+        public override bool PraseTest( string fileName )
+        {
+            try
+            {
+                Timetable tempTimetable = new Timetable();
+                ParseOptional(tempTimetable, fileName);
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+
+            return true;
         }
 
         private void ParseOptional(Timetable timetable, string fileName)
