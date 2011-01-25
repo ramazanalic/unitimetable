@@ -1,0 +1,2787 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2009, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Course</th><th>Course Title</th><th>Class Type</th><th>Class</th><th>Start</th><th>End</th><th>Clash</th><th>Building Name</th><th>Building Number</th><th>Room</th><th>Start/End Date (DD/MM/YYYY)</th><th>Not taught on these dates (DD/MM/YYYY)</th><th>Signon Avail</th><th>Student Signon</th><th>Group Name</th></tr>
+<tr>
+<td>Monday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Lecture</td>
+<td>L1</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td></td>
+<td>Hawken Engineering Building</td>
+<td>50</td>
+<td>T203</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T1</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Lecture</td>
+<td>L2</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Hawken Engineering Building</td>
+<td>50</td>
+<td>T203</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T1</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 07/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T2</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 07/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T2</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P1</td>
+<td>10:00 AM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 07/03/2011; 21/03/2011; 04/04/2011; 18/04/2011; 25/04/2011; 02/05/2011; 09/05/2011; 23/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P2</td>
+<td>10:00 AM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 14/03/2011; 28/03/2011; 11/04/2011; 25/04/2011; 02/05/2011; 16/05/2011; 30/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T3</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 07/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T4</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 07/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T3</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Lecture</td>
+<td>L3</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>UQ Centre</td>
+<td>27A</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T5</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 07/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T6</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 07/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T4</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T7</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 07/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T8</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 07/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T5</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T9</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 07/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T10</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 07/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Tutorial</td>
+<td>T12 (ACCEL</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5057</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Practical</td>
+<td>P3</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>LAB</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 14/03/2011; 28/03/2011; 11/04/2011; 18/04/2011; 02/05/2011; 16/05/2011; 30/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Practical</td>
+<td>P4</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>LAB</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 07/03/2011; 21/03/2011; 04/04/2011; 18/04/2011; 02/05/2011; 09/05/2011; 23/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P3</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 07/03/2011; 21/03/2011; 04/04/2011; 18/04/2011; 25/04/2011; 02/05/2011; 09/05/2011; 23/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P4</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 28/02/2011; 14/03/2011; 28/03/2011; 11/04/2011; 25/04/2011; 02/05/2011; 16/05/2011; 30/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>Tuesday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Tutorial</td>
+<td>T1</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5051</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Tutorial</td>
+<td>T2</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5052</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Tutorial</td>
+<td>T3</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5057</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Tutorial</td>
+<td>T4</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5039</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Tutorial</td>
+<td>T5</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5038</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Tutorial
+Calculations</td>
+<td>T6</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5036</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial
+Calculations</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Tutorial
+Calculations</td>
+<td>T7</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5035</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial
+Calculations</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Tutorial
+Calculations</td>
+<td>T11</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5034</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial
+Calculations</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T14</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011; 08/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T53</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011; 08/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T6</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T11</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011; 08/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T12</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011; 08/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Tutorial</td>
+<td>T6</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5051</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Tutorial</td>
+<td>T7</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5052</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Tutorial</td>
+<td>T8</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5057</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Tutorial</td>
+<td>T9</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5039</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Tutorial
+Calculations</td>
+<td>T1</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5038</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial
+Calculations</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Tutorial
+Calculations</td>
+<td>T2</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5036</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial
+Calculations</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Tutorial
+Calculations</td>
+<td>T3</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5035</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial
+Calculations</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Tutorial
+Calculations</td>
+<td>T10</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5034</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial
+Calculations</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T7</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P5</td>
+<td>10:00 AM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 08/03/2011; 22/03/2011; 05/04/2011; 19/04/2011; 26/04/2011; 10/05/2011; 24/05/2011; 31/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P6</td>
+<td>10:00 AM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011; 15/03/2011; 29/03/2011; 12/04/2011; 26/04/2011; 03/05/2011; 17/05/2011; 31/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T13</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>249</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011; 08/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Lecture</td>
+<td>L</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5061</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T25</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T17</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011; 08/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T18</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011; 08/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T10</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T19</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011; 08/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T20</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011; 08/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Lecture</td>
+<td>L</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5061</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P7</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 08/03/2011; 22/03/2011; 05/04/2011; 19/04/2011; 26/04/2011; 10/05/2011; 24/05/2011; 31/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P8</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011; 15/03/2011; 29/03/2011; 12/04/2011; 26/04/2011; 03/05/2011; 17/05/2011; 31/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Lecture</td>
+<td>L</td>
+<td>03:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5061</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Tutorial</td>
+<td>T10</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5051</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>PHRM1011</td>
+<td>Introductory Pharmacy 1</td>
+<td>Tutorial</td>
+<td>T11</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5052</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Tutorial
+Calculations</td>
+<td>T4</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5039</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial
+Calculations</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Tutorial
+Calculations</td>
+<td>T5</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5038</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial
+Calculations</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Tutorial
+Calculations</td>
+<td>T8</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5036</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial
+Calculations</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Tutorial
+Calculations</td>
+<td>T9</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>PACE</td>
+<td>=&quot;0870&quot;</td>
+<td>5035</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial
+Calculations</td>
+<tr>
+<td>Wednesday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T15</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011; 08/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial</td>
+<td>T54</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>249</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 09/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T11</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Lecture</td>
+<td>L2</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Hawken Engineering Building</td>
+<td>50</td>
+<td>T203</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T21</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 09/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T22</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>249</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 09/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T12</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T30</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>408</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Lecture</td>
+<td>L1</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Hawken Engineering Building</td>
+<td>50</td>
+<td>T203</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P10</td>
+<td>10:00 AM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 16/03/2011; 30/03/2011; 13/04/2011; 27/04/2011; 04/05/2011; 18/05/2011; 01/06/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T23</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 09/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T24</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>249</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 09/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T13</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T27</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>408</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T25</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 09/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T26</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 09/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Lecture</td>
+<td>L1</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Abel Smith Lecture Theatre</td>
+<td>23</td>
+<td>1</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T14</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T27</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 09/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T28</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 09/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Lecture</td>
+<td>L2</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Abel Smith Lecture Theatre</td>
+<td>23</td>
+<td>1</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T15</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Lecture</td>
+<td>L3</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Hawken Engineering Building</td>
+<td>50</td>
+<td>T203</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T29</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 09/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T30</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 09/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Practical</td>
+<td>P11</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>LAB</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 16/03/2011; 30/03/2011; 13/04/2011; 20/04/2011; 04/05/2011; 18/05/2011; 01/06/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Practical</td>
+<td>P12</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>LAB</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 09/03/2011; 23/03/2011; 06/04/2011; 20/04/2011; 04/05/2011; 11/05/2011; 25/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P12</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 02/03/2011; 16/03/2011; 30/03/2011; 13/04/2011; 27/04/2011; 04/05/2011; 18/05/2011; 01/06/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>Thursday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Lecture</td>
+<td>L2</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Abel Smith Lecture Theatre</td>
+<td>23</td>
+<td>1</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T16</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 01/03/2011; 08/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T55</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T16</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T28</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>408</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T31</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T32</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Practical</td>
+<td>P13</td>
+<td>10:00 AM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>LAB</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 17/03/2011; 31/03/2011; 14/04/2011; 21/04/2011; 05/05/2011; 19/05/2011; 02/06/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Practical</td>
+<td>P14</td>
+<td>10:00 AM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>LAB</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011; 24/03/2011; 07/04/2011; 21/04/2011; 05/05/2011; 12/05/2011; 26/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T17</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T29</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>408</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Lecture</td>
+<td>L1</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>UQ Centre</td>
+<td>27A</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T33</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T34</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T18</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Lecture</td>
+<td>L3</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>UQ Centre</td>
+<td>27A</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T35</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T36</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T19</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Lecture</td>
+<td>L2</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Hawken Engineering Building</td>
+<td>50</td>
+<td>T203</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T37</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T38</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T20</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T39</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T40</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Lecture</td>
+<td>L</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>Hawken Engineering Building</td>
+<td>50</td>
+<td>T203</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P16</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 17/03/2011; 31/03/2011; 14/04/2011; 28/04/2011; 05/05/2011; 19/05/2011; 02/06/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Contact
+Data Analysis</td>
+<td>C1</td>
+<td>03:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Priestley Building</td>
+<td>67</td>
+<td>542</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+Data Analysis</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Contact
+Data Analysis</td>
+<td>C2</td>
+<td>03:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Priestley Building</td>
+<td>67</td>
+<td>443</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+Data Analysis</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Contact
+Data Analysis</td>
+<td>C3</td>
+<td>04:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Priestley Building</td>
+<td>67</td>
+<td>542</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+Data Analysis</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Contact
+Data Analysis</td>
+<td>C4</td>
+<td>04:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Priestley Building</td>
+<td>67</td>
+<td>443</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+Data Analysis</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Contact
+Data Analysis</td>
+<td>C5</td>
+<td>05:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Priestley Building</td>
+<td>67</td>
+<td>542</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+Data Analysis</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Contact
+Data Analysis</td>
+<td>C6</td>
+<td>05:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Priestley Building</td>
+<td>67</td>
+<td>443</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 03/03/2011; 10/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+Data Analysis</td>
+<tr>
+<td>Friday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Contact
+Data Analysis</td>
+<td>C7</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Priestley Building</td>
+<td>67</td>
+<td>542</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+Data Analysis</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Contact
+Data Analysis</td>
+<td>C8</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Priestley Building</td>
+<td>67</td>
+<td>443</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact
+Data Analysis</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T51</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T52</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>PHRM1020</td>
+<td>Pharmacy - Data Analysis &amp; Pro</td>
+<td>Lecture</td>
+<td>L</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Steele Building</td>
+<td>=&quot;03&quot;</td>
+<td>206</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T21</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Lecture</td>
+<td>L1</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Hawken Engineering Building</td>
+<td>50</td>
+<td>T203</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T41</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T42</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T22</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P17</td>
+<td>10:00 AM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 11/03/2011; 25/03/2011; 08/04/2011; 22/04/2011; 29/04/2011; 13/05/2011; 27/05/2011; 03/06/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P18</td>
+<td>10:00 AM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 18/03/2011; 01/04/2011; 15/04/2011; 22/04/2011; 29/04/2011; 06/05/2011; 20/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T43</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T44</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T23</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T45</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T46</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Lecture</td>
+<td>L2</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Abel Smith Lecture Theatre</td>
+<td>23</td>
+<td>1</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Tutorial
+PASS</td>
+<td>T24</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>120D</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T47</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T48</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Lecture</td>
+<td>L1</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Abel Smith Lecture Theatre</td>
+<td>23</td>
+<td>1</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Lecture</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T49</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>351</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Tutorial
+PASS</td>
+<td>T50</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>352</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Tutorial
+PASS</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Practical</td>
+<td>P19</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>LAB</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 18/03/2011; 01/04/2011; 15/04/2011; 22/04/2011; 06/05/2011; 20/05/2011; 03/06/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>BIOL1040</td>
+<td>Cells to Organisms</td>
+<td>Practical</td>
+<td>P20</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>MacGregor Building</td>
+<td>64</td>
+<td>LAB</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 11/03/2011; 25/03/2011; 08/04/2011; 22/04/2011; 06/05/2011; 13/05/2011; 27/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P19</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 11/03/2011; 25/03/2011; 08/04/2011; 22/04/2011; 29/04/2011; 13/05/2011; 27/05/2011; 03/06/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+<tr>
+<td>CHEM1030</td>
+<td>Chem - Structure &amp; Reactions</td>
+<td>Practical</td>
+<td>P20</td>
+<td>02:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>Chemistry Building</td>
+<td>68</td>
+<td>220</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td> 04/03/2011; 18/03/2011; 01/04/2011; 15/04/2011; 22/04/2011; 29/04/2011; 06/05/2011; 20/05/2011</td>
+<td>Not Yet</td>
+<td>Pending</td>
+<td>Practical</td>
+</table></body></html>

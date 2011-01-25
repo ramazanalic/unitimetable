@@ -291,6 +291,7 @@ namespace UniTimetable
                     }
                     continue;
                 }
+
                 // If we have a day selected already.
                 if (current_day != -1)
                 {
@@ -313,15 +314,27 @@ namespace UniTimetable
                         subject = new Subject(subject_code);
                         timetable.SubjectList.Add(subject);
                     }
-
-                    // Get a session type.
-                    Type type = null;
-                    // Check if the session type exists.
+                    
                     string session_code = session_info["stream_code"].Value;
-                    string stream_code = session_code.Substring(0, 1);
+
+                    // Build the regex to parse the session code.
+                    Regex session_parser = new Regex(@"^(?<type>[a-zA-Z]+)(?<number>[0-9]*)\b");
+                    Match session_match = session_parser.Match(session_code);
+
+                    string type_code = session_match.Groups["type"].Value;
+                    string stream_number_text = session_match.Groups["number"].Value;
+                    // Convert the stream number (if any) to an integer.
+                    int stream_number = 0;
+                    if (stream_number_text.Length > 0)
+                    {
+                        stream_number = Convert.ToInt32(stream_number_text);
+                    }
+
+                    // Check if the session type exists.
+                    Type type = null;
                     foreach (Type x in subject.Types)
                     {
-                        if (x.Code == stream_code)
+                        if (x.Code == type_code)
                         {
                             // Matched on the first letter.
                             type = x;
@@ -332,23 +345,18 @@ namespace UniTimetable
                     {
                         // The session type doesn't exist, create it.
                         type = new Type(session_info["session_type_name"].Value,
-                                        stream_code,
+                                        type_code,
                                         subject);
                         // Check if this session requires attendance.
-                        type.Required = (stream_code != "W" &&
-                            stream_code != "S" &&
-                            stream_code != "C");
+                        type.Required = (type_code != "W" &&
+                            type_code != "S" &&
+                            type_code != "C");
                         timetable.TypeList.Add(type);
                     }
 
                     // Get a stream object.
                     // Grab the stream number.
-                    int stream_number = 0;
-                    if (session_code.Length != 1)
-                    {
-                        // Chop the letter off the stream code.
-                        stream_number = Convert.ToInt32(session_code.Substring(1));
-                    }
+                    
                     // Search to see if the stream exists.
                     Stream stream = null;
                     foreach (Stream x in type.Streams)
@@ -662,31 +670,6 @@ namespace UniTimetable
                 }
             }
             inputStream.Close();
-        }
-    }
-
-    class QUTImporter : Importer
-    {
-        public QUTImporter()
-            : base()
-        {
-            FormatName_ = "QUT Data";
-            University_ = "Queensland University of Technology";
-            CreatedBy_ = "Jack Valmadre";
-            LastUpdated_ = "COMING SOON";
-
-            File1Description_ = "QUT Data File (*.*)";
-            File1Dialog_.Title = "Import QUT Timetable File";
-            File1Dialog_.Filter = "QUT Data File (*.*)|*.*";
-
-            Logo_ = Properties.Resources.QUT;
-
-            //FileInstructions_ = "";
-        }
-
-        protected override Timetable Parse()
-        {
-            return new Timetable();
         }
     }
 }

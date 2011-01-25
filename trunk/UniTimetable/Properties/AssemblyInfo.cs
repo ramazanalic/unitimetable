@@ -18,7 +18,7 @@ Funky icons sourced from www.vistaicons.com, www.photoshopguidesign.com, mazenl7
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jack Valmadre")]
 [assembly: AssemblyProduct("University Timetable Manager")]
-[assembly: AssemblyCopyright("Copyright © 2007-2010")]
+[assembly: AssemblyCopyright("Copyright © 2007-2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -37,5 +37,5 @@ Funky icons sourced from www.vistaicons.com, www.photoshopguidesign.com, mazenl7
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("2.1.0.0")]
-[assembly: AssemblyFileVersion("2.1.0.0")]
+[assembly: AssemblyVersion("2.1.1.0")]
+[assembly: AssemblyFileVersion("2.1.1.0")]

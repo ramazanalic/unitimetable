@@ -1,0 +1,587 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2009, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Course</th><th>Course Title</th><th>Class Type</th><th>Class</th><th>Start</th><th>End</th><th>Clash</th><th>Building Name</th><th>Building Number</th><th>Room</th><th>Start/End Date (DD/MM/YYYY)</th><th>Not taught on these dates (DD/MM/YYYY)</th><th>Signon Avail</th><th>Student Signon</th><th>Group Name</th></tr>
+<tr>
+<td>Monday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>INFS3202</td>
+<td>Web Information Systems</td>
+<td>Practical</td>
+<td>P1</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>116</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>IENV3000</td>
+<td>Studio II - Physical Computing</td>
+<td>Contact</td>
+<td>C</td>
+<td>10:00 AM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Sir Llew Edwards Building</td>
+<td>14</td>
+<td>219</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C1</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C2</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C3</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>INFS3202</td>
+<td>Web Information Systems</td>
+<td>Practical</td>
+<td>P2</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>116</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>Tuesday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>INFS3202</td>
+<td>Web Information Systems</td>
+<td>Practical</td>
+<td>P3</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>116</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>INFS3202</td>
+<td>Web Information Systems</td>
+<td>Practical</td>
+<td>P4</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>116</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>IENV3000</td>
+<td>Studio II - Physical Computing</td>
+<td>Contact</td>
+<td>C</td>
+<td>10:00 AM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>250</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C4</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C5</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Lecture</td>
+<td>L</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Physiology Lecture Theatres</td>
+<td>63</td>
+<td>360</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>IENV3000</td>
+<td>Studio II - Physical Computing</td>
+<td>IT</td>
+<td>IT</td>
+<td>02:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>207</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>IT</td>
+<tr>
+<td>IENV3000</td>
+<td>Studio II - Physical Computing</td>
+<td>Workshop</td>
+<td>W</td>
+<td>02:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>209</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Workshop</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C6</td>
+<td>04:00 PM</td>
+<td>04:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>Wednesday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>INFS3202</td>
+<td>Web Information Systems</td>
+<td>Practical</td>
+<td>P5</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>116</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C7</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C8</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P1</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P2</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>INFS3202</td>
+<td>Web Information Systems</td>
+<td>Practical</td>
+<td>P6</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>116</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>Thursday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P3</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P4</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P5</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P6</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>INFS3202</td>
+<td>Web Information Systems</td>
+<td>Lecture</td>
+<td>L</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td></td>
+<td>Hawken Engineering Building</td>
+<td>50</td>
+<td>T103</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>Friday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>INFS3202</td>
+<td>Web Information Systems</td>
+<td>Practical</td>
+<td>P7</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>116</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Lecture</td>
+<td>L</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td></td>
+<td>Prentice Building</td>
+<td>42</td>
+<td>216</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>INFS3202</td>
+<td>Web Information Systems</td>
+<td>Practical</td>
+<td>P8</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>116</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P7</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P8</td>
+<td>03:00 PM</td>
+<td>03:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+</table></body></html>
