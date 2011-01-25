@@ -16,13 +16,10 @@ namespace UniTimetable
         Importer[] ImporterList_ = new Importer[] {
             new UQSiNetImporter(),
             new UNSWHtmlImporter(),
-            new UWSHTMLImporter(),
             new QUTImporter()
         };
 
         Importer Importer_ = null;
-
-        List<TimetableSession> sessions = null;
 
         public FormImport()
         {
@@ -48,7 +45,6 @@ namespace UniTimetable
             CurrentPage_ = 1;
             // bring up panel 1
             panel1.Visible = true;
-            panelFetchWeb.Visible = false;
             panel2.Visible = false;
             panel3.Visible = false;
             panel4.Visible = false;
@@ -61,7 +57,6 @@ namespace UniTimetable
             txtFile1.Text = "";
             txtFile2.Text = "";
             txtFile3.Text = "";
-            txtFile4.Text = "";
         }
 
         #region Wizard Control Flow Buttons
@@ -102,7 +97,6 @@ namespace UniTimetable
                 Importer_.File1Dialog.FileName = "";
                 Importer_.File2Dialog.FileName = "";
                 Importer_.File3Dialog.FileName = "";
-                Importer_.File4Dialog.FileName = "";
 
                 // bring up panel 2 (file import) information
                 // file 1
@@ -147,20 +141,6 @@ namespace UniTimetable
                     btnBrowse3.Visible = false;
                     txtFile3.Visible = false;
                 }
-                // file 4
-                if (Importer_.File4Description != null)
-                {
-                    lblFile4.Text = Importer_.File4Description;
-                    lblFile4.Visible = true;
-                    btnBrowse4.Visible = true;
-                    txtFile4.Visible = true;
-                }
-                else
-                {
-                    lblFile4.Visible = false;
-                    btnBrowse4.Visible = false;
-                    txtFile4.Visible = false;
-                }
                 // file instructions
                 if (Importer_.FileInstructions != null)
                 {
@@ -171,10 +151,6 @@ namespace UniTimetable
                     txtFileInstructions.Text = "No instructions provided for " + Importer_.FormatName + ".";
                 }
 
-                // It it's a univeristy that supports web import, show panelFetchWeb.
-                if (Importer_.SupportsWeb == true)
-                    panelFetchWeb.Visible = true;
-
                 // bring up panel 2
                 panel1.Visible = false;
                 panel2.Visible = true;
@@ -184,14 +160,7 @@ namespace UniTimetable
             else if (CurrentPage_ == 2)
             {
                 // try and parse files
-                try
-                {
-                    Timetable_ = Importer_.Import();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error: Ensure you are connected to the Internet");
-                }
+                Timetable_ = Importer_.Import();
 
                 // if it failed, alert the user and stay on the current page
                 if (Timetable_ == null)
@@ -214,7 +183,6 @@ namespace UniTimetable
                 timetableControl1.Clear();
 
                 // bring up panel 3
-                panelFetchWeb.Visible = false;
                 panel2.Visible = false;
                 panel3.Visible = true;
             }
@@ -285,7 +253,6 @@ namespace UniTimetable
             if (CurrentPage_ == 2)
             {
                 // bring up panel 1
-                panelFetchWeb.Visible = false;
                 panel2.Visible = false;
                 panel1.Visible = true;
                 // disable back button
@@ -294,8 +261,6 @@ namespace UniTimetable
             else if (CurrentPage_ == 3)
             {
                 // bring up panel 2
-                if (Importer_.SupportsWeb == true)
-                    panelFetchWeb.Visible = true;
                 panel3.Visible = false;
                 panel2.Visible = true;
             }
@@ -376,14 +341,6 @@ namespace UniTimetable
             if (Importer_.File3Dialog.ShowDialog() == DialogResult.OK)
             {
                 txtFile3.Text = Importer_.File3Dialog.FileName;
-            }
-        }
-
-        private void btnBrowse4_Click(object sender, EventArgs e)
-        {
-            if (Importer_.File4Dialog.ShowDialog() == DialogResult.OK)
-            {
-                txtFile4.Text = Importer_.File4Dialog.FileName;
             }
         }
 
@@ -618,136 +575,6 @@ namespace UniTimetable
         }
 
         #endregion
-
-        private void btnClassicImporter_Click(object sender, EventArgs e)
-        {
-            panelFetchWeb.Visible = false;
-        }
-
-        private void btnFetchUnit_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                listTimetable.Items.Clear();
-                sessions = Importer_.FetchUnits(txtUnitCode.Text, textUnitName);
-
-                foreach (TimetableSession session in sessions)
-                {
-                    ListViewItem sessionToAdd = new ListViewItem(session.getTimeframe);
-                    sessionToAdd.SubItems.Add(session.getCampus);
-                    sessionToAdd.SubItems.Add(session.getType);
-                    listTimetable.Items.Add(sessionToAdd);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message.ToString());
-                textUnitName.Text = "";
-            }
-        }
-
-        private void btnUseSelected_Click(object sender, EventArgs e)
-        {
-            int i;
-            for (i = 0; i < listTimetable.Items.Count; i++)
-                if (listTimetable.Items[i].Selected == true)
-                {
-                    break;
-                }
-
-            string description = textUnitName.Text;
-            string url = sessions[i].getURL;
-
-            // Check URL to ensure it's good. If it's bad, an exception will be thrown
-            if (!Importer_.PraseTest(url))
-            {
-                MessageBox.Show("Error with the timetable!");
-                return;
-            }
-
-            // Check to see if field 1 is taken.
-            if (Importer_.Unit1URL == null)
-            {
-                txtUnit1.Text = description;
-                Importer_.Unit1Description = description;
-                Importer_.Unit1URL = url;
-            }
-            else if (Importer_.Unit2URL == null)
-            {
-                txtUnit2.Text = description;
-                Importer_.Unit2Description = description;
-                Importer_.Unit2URL = url;
-            }
-            else if (Importer_.Unit3URL == null)
-            {
-                txtUnit3.Text = description;
-                Importer_.Unit3Description = description;
-                Importer_.Unit3URL = url;
-            }
-            else if (Importer_.Unit4URL == null)
-            {
-                txtUnit4.Text = description;
-                Importer_.Unit4Description = description;
-                Importer_.Unit4URL = url;
-            }
-            else
-            {
-                MessageBox.Show("This function doesn't support more than 4 units");
-            }
-
-        }
-
-        private void btn1Delete_Click(object sender, EventArgs e)
-        {
-            txtUnit1.Text = txtUnit2.Text;
-            Importer_.Unit1Description = Importer_.Unit2Description;
-            Importer_.Unit1URL = Importer_.Unit2URL;
-
-            txtUnit2.Text = txtUnit3.Text;
-            Importer_.Unit2Description = Importer_.Unit3Description;
-            Importer_.Unit2URL = Importer_.Unit3URL;
-
-            txtUnit3.Text = txtUnit4.Text;
-            Importer_.Unit3Description = Importer_.Unit4Description;
-            Importer_.Unit3URL = Importer_.Unit4URL;
-
-            txtUnit4.Text = null;
-            Importer_.Unit4Description = null;
-            Importer_.Unit4URL = null;
-        }
-
-        private void btn2Delete_Click(object sender, EventArgs e)
-        {
-            txtUnit2.Text = txtUnit3.Text;
-            Importer_.Unit2Description = Importer_.Unit3Description;
-            Importer_.Unit2URL = Importer_.Unit3URL;
-
-            txtUnit3.Text = txtUnit4.Text;
-            Importer_.Unit3Description = Importer_.Unit4Description;
-            Importer_.Unit3URL = Importer_.Unit4URL;
-
-            txtUnit4.Text = null;
-            Importer_.Unit4Description = null;
-            Importer_.Unit4URL = null;
-        }
-
-        private void btn3Delete_Click(object sender, EventArgs e)
-        {
-            txtUnit3.Text = txtUnit4.Text;
-            Importer_.Unit3Description = Importer_.Unit4Description;
-            Importer_.Unit3URL = Importer_.Unit4URL;
-
-            txtUnit4.Text = null;
-            Importer_.Unit4Description = null;
-            Importer_.Unit4URL = null;
-        }
-
-        private void btn4Delete_Click(object sender, EventArgs e)
-        {
-            txtUnit4.Text = null;
-            Importer_.Unit4Description = null;
-            Importer_.Unit4URL = null;
-        }
 
     }
 }

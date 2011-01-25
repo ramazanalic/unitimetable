@@ -400,45 +400,15 @@ namespace UniTimetable
             return wallpaper;
         }
 
-        private Color GetWallpaperColor()
-        {
-            RegistryKey rkColor = Registry.CurrentUser.OpenSubKey("Control Panel\\Colors", false);
-            string colorRGB = rkColor.GetValue("Background").ToString();
-            string[] colors = colorRGB.Split(' ');
-            Color wallpaper = Color.FromArgb(int.Parse(colors[0]), int.Parse(colors[1]), int.Parse(colors[2]));
-
-            return wallpaper;
-        }
-
-        public Bitmap GetWallpaperBitmapColor()
-        {
-            int colWidth = Screen.PrimaryScreen.Bounds.Width;
-            int rowHeight = Screen.PrimaryScreen.Bounds.Height;
-
-            System.Drawing.Bitmap background = new System.Drawing.Bitmap(colWidth, rowHeight);
-
-            Color theColor = GetWallpaperColor();
-
-            for (int x = 0; x < background.Size.Width; x++)
-                for (int y = 0; y < background.Size.Height; y++)
-                    background.SetPixel(x, y, theColor);
-
-            return background;
-        }
-
         private Bitmap GetWallpaperBitmap()
         {
             string wallpaper = GetWallpaperPath();
             Rectangle screen = Screen.GetBounds(this);
-            Bitmap b;
 
             // have to get around indexed images, pieced together from:
             // http://www.c-sharpcorner.com/UploadFile/rrraman/graphicsObject08232007102733AM/graphicsObject.aspx
             // http://www.eggheadcafe.com/PrintSearchContent.asp?LINKID=799
-            if (wallpaper != "")
-                b = new Bitmap(wallpaper);
-            else
-                b = GetWallpaperBitmapColor();
+            Bitmap b = new Bitmap(wallpaper);
             MemoryStream stream = new MemoryStream();
             b.Save(stream, ImageFormat.Bmp);
             Image image = Image.FromStream(stream);
