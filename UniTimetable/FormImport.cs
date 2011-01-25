@@ -16,7 +16,6 @@ namespace UniTimetable
         Importer[] ImporterList_ = new Importer[] {
             new UQSiNetImporter(),
             new UNSWHtmlImporter(),
-            new QUTImporter()
         };
 
         Importer Importer_ = null;
@@ -31,6 +30,9 @@ namespace UniTimetable
             {
                 listBoxFormats.Items.Add(importer);
             }
+
+            // Select the first item by default.
+            listBoxFormats.SetSelected(0, true);
         }
 
         public new Timetable ShowDialog()

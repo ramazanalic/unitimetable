@@ -1,0 +1,1115 @@
+<html dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2009, Oracle. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Course</th><th>Course Title</th><th>Class Type</th><th>Class</th><th>Start</th><th>End</th><th>Clash</th><th>Building Name</th><th>Building Number</th><th>Room</th><th>Start/End Date (DD/MM/YYYY)</th><th>Not taught on these dates (DD/MM/YYYY)</th><th>Signon Avail</th><th>Student Signon</th><th>Group Name</th></tr>
+<tr>
+<td>Monday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P1</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>14/03/2011 - 04/06/2011</td>
+<td> 21/03/2011; 04/04/2011; 18/04/2011; 25/04/2011; 02/05/2011; 09/05/2011; 23/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P2</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>21/03/2011 - 27/05/2011</td>
+<td> 28/03/2011; 11/04/2011; 25/04/2011; 02/05/2011; 16/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C1</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C2</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C3</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P3</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>14/03/2011 - 04/06/2011</td>
+<td> 21/03/2011; 04/04/2011; 18/04/2011; 25/04/2011; 02/05/2011; 09/05/2011; 23/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P4</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>21/03/2011 - 27/05/2011</td>
+<td> 28/03/2011; 11/04/2011; 25/04/2011; 02/05/2011; 16/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>MECH3250</td>
+<td>Engineering Acoustics</td>
+<td>Practical</td>
+<td>P1</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>205</td>
+<td>11/04/2011 - 11/04/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>MECH3250</td>
+<td>Engineering Acoustics</td>
+<td>Practical</td>
+<td>P3</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>205</td>
+<td>18/04/2011 - 18/04/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>MECH3250</td>
+<td>Engineering Acoustics</td>
+<td>Practical</td>
+<td>P5</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>205</td>
+<td>09/05/2011 - 09/05/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>MECH3250</td>
+<td>Engineering Acoustics</td>
+<td>Practical</td>
+<td>P7</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>205</td>
+<td>16/05/2011 - 16/05/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>MECH3250</td>
+<td>Engineering Acoustics</td>
+<td>Practical</td>
+<td>P9</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>205</td>
+<td>23/05/2011 - 23/05/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P5</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>14/03/2011 - 03/06/2011</td>
+<td> 21/03/2011; 04/04/2011; 18/04/2011; 25/04/2011; 02/05/2011; 09/05/2011; 23/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P6</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>21/03/2011 - 27/05/2011</td>
+<td> 28/03/2011; 11/04/2011; 25/04/2011; 02/05/2011; 16/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>MECH3250</td>
+<td>Engineering Acoustics</td>
+<td>Practical</td>
+<td>P2</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>205</td>
+<td>11/04/2011 - 11/04/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>MECH3250</td>
+<td>Engineering Acoustics</td>
+<td>Practical</td>
+<td>P4</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>205</td>
+<td>18/04/2011 - 18/04/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>MECH3250</td>
+<td>Engineering Acoustics</td>
+<td>Practical</td>
+<td>P6</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>205</td>
+<td>09/05/2011 - 09/05/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>MECH3250</td>
+<td>Engineering Acoustics</td>
+<td>Practical</td>
+<td>P8</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>205</td>
+<td>16/05/2011 - 16/05/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>MECH3250</td>
+<td>Engineering Acoustics</td>
+<td>Practical</td>
+<td>P10</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>205</td>
+<td>23/05/2011 - 23/05/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>Tuesday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P7</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>14/03/2011 - 20/05/2011</td>
+<td> 22/03/2011; 05/04/2011; 19/04/2011; 26/04/2011; 10/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P8</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>21/03/2011 - 04/06/2011</td>
+<td> 29/03/2011; 12/04/2011; 19/04/2011; 26/04/2011; 03/05/2011; 17/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C4</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C5</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Lecture</td>
+<td>L</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td></td>
+<td>Goddard Building</td>
+<td>=&quot;08&quot;</td>
+<td>139</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C6</td>
+<td>04:00 PM</td>
+<td>04:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>Wednesday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C7</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>CSSE2002</td>
+<td>Programming in the Large</td>
+<td>Lecture</td>
+<td>L</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Prentice Building</td>
+<td>42</td>
+<td>115</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P17</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>14/03/2011 - 04/06/2011</td>
+<td> 23/03/2011; 06/04/2011; 13/04/2011; 20/04/2011; 27/04/2011; 11/05/2011; 25/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P18</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>21/03/2011 - 27/05/2011</td>
+<td> 30/03/2011; 13/04/2011; 27/04/2011; 04/05/2011; 18/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Contact</td>
+<td>C8</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Contact</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P1</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P2</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P9</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>14/03/2011 - 04/06/2011</td>
+<td> 23/03/2011; 06/04/2011; 13/04/2011; 20/04/2011; 27/04/2011; 11/05/2011; 25/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P10</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>21/03/2011 - 27/05/2011</td>
+<td> 30/03/2011; 13/04/2011; 27/04/2011; 04/05/2011; 18/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P11</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>14/03/2011 - 04/06/2011</td>
+<td> 23/03/2011; 06/04/2011; 13/04/2011; 20/04/2011; 27/04/2011; 11/05/2011; 25/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P12</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>21/03/2011 - 27/05/2011</td>
+<td> 30/03/2011; 13/04/2011; 27/04/2011; 04/05/2011; 18/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>Thursday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>CSSE2002</td>
+<td>Programming in the Large</td>
+<td>Tutorial</td>
+<td>T4</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Parnell Building</td>
+<td>=&quot;07&quot;</td>
+<td>302</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Tutorial</td>
+<td>T2</td>
+<td>08:00 AM</td>
+<td>08:50 AM</td>
+<td>CLASH</td>
+<td>Therapies Annexe</td>
+<td>84A</td>
+<td>304</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P3</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>CSSE2002</td>
+<td>Programming in the Large</td>
+<td>Tutorial</td>
+<td>T1</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Priestley Building</td>
+<td>67</td>
+<td>141</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Tutorial</td>
+<td>T3</td>
+<td>09:00 AM</td>
+<td>09:50 AM</td>
+<td>CLASH</td>
+<td>Therapies Annexe</td>
+<td>84A</td>
+<td>304</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P4</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>CSSE2002</td>
+<td>Programming in the Large</td>
+<td>Tutorial</td>
+<td>T2</td>
+<td>10:00 AM</td>
+<td>10:50 AM</td>
+<td>CLASH</td>
+<td>Priestley Building</td>
+<td>67</td>
+<td>142</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>MECH3250</td>
+<td>Engineering Acoustics</td>
+<td>Lecture</td>
+<td>L</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Frank White Building</td>
+<td>43</td>
+<td>102</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P5</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>CSSE2002</td>
+<td>Programming in the Large</td>
+<td>Tutorial</td>
+<td>T3</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Connell Building</td>
+<td>26</td>
+<td>232</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Tutorial</td>
+<td>T1</td>
+<td>11:00 AM</td>
+<td>11:50 AM</td>
+<td>CLASH</td>
+<td>Sir James Foots Building</td>
+<td>47A</td>
+<td>141</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Tutorial</td>
+<td>T4</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td></td>
+<td>Hawken Engineering Building</td>
+<td>50</td>
+<td>N201</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P6</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>CSSE2002</td>
+<td>Programming in the Large</td>
+<td>Lecture</td>
+<td>L</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>Hawken Engineering Building</td>
+<td>50</td>
+<td>T105</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P13</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>14/03/2011 - 20/05/2011</td>
+<td> 24/03/2011; 07/04/2011; 21/04/2011; 28/04/2011; 12/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P14</td>
+<td>02:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>21/03/2011 - 27/05/2011</td>
+<td> 31/03/2011; 14/04/2011; 28/04/2011; 05/05/2011; 19/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P15</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>14/03/2011 - 20/05/2011</td>
+<td> 24/03/2011; 07/04/2011; 21/04/2011; 28/04/2011; 12/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Practical</td>
+<td>P16</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td>CLASH</td>
+<td>Mansergh Shaw Building</td>
+<td>45</td>
+<td>106</td>
+<td>21/03/2011 - 27/05/2011</td>
+<td> 31/03/2011; 14/04/2011; 28/04/2011; 05/05/2011; 19/05/2011</td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>Friday</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&nbsp;
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<tr>
+<td>CSSE2002</td>
+<td>Programming in the Large</td>
+<td>Practical</td>
+<td>P1</td>
+<td>08:00 AM</td>
+<td>09:50 AM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>122</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>CSSE2002</td>
+<td>Programming in the Large</td>
+<td>Practical</td>
+<td>P2</td>
+<td>10:00 AM</td>
+<td>11:50 AM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>122</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>CSSE2002</td>
+<td>Programming in the Large</td>
+<td>Practical</td>
+<td>P3</td>
+<td>12:00 PM</td>
+<td>01:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>122</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>MECH3250</td>
+<td>Engineering Acoustics</td>
+<td>Tutorial</td>
+<td>T</td>
+<td>12:00 PM</td>
+<td>12:50 PM</td>
+<td>CLASH</td>
+<td>Hawken Engineering Building</td>
+<td>50</td>
+<td>S201</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Tutorial</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Lecture</td>
+<td>L</td>
+<td>01:00 PM</td>
+<td>01:50 PM</td>
+<td></td>
+<td>Prentice Building</td>
+<td>42</td>
+<td>216</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P7</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Lecture</td>
+<td>L</td>
+<td>02:00 PM</td>
+<td>02:50 PM</td>
+<td>CLASH</td>
+<td>Steele Building</td>
+<td>=&quot;03&quot;</td>
+<td>206</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>COMP2303</td>
+<td>Network &amp; OS Principles</td>
+<td>Practical</td>
+<td>P8</td>
+<td>03:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>110</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+<tr>
+<td>METR3200</td>
+<td>Introduction to Control System</td>
+<td>Lecture</td>
+<td>L</td>
+<td>03:00 PM</td>
+<td>03:50 PM</td>
+<td>CLASH</td>
+<td>Steele Building</td>
+<td>=&quot;03&quot;</td>
+<td>206</td>
+<td>28/02/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Lecture</td>
+<tr>
+<td>CSSE2002</td>
+<td>Programming in the Large</td>
+<td>Practical</td>
+<td>P4</td>
+<td>04:00 PM</td>
+<td>05:50 PM</td>
+<td></td>
+<td>General Purpose South</td>
+<td>78</td>
+<td>122</td>
+<td>07/03/2011 - 04/06/2011</td>
+<td></td>
+<td>Not Required</td>
+<td>Not Required</td>
+<td>Practical</td>
+</table></body></html>
